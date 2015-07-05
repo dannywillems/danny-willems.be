@@ -1,0 +1,96 @@
+/* -------------------------------------------------------------------------- */
+/* Special fonts */
+@font-face
+{
+	font-family: "league-gothic-condensed-regular";
+	src: "../fonts/leaguegothic-condensed-regular-webfont.ttf";
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* Navbar */
+@media (min-width: 780px)
+{
+	/* Remove black space between navbar and resume */
+	.navbar
+	{
+		margin-bottom: 0px;
+	}
+
+	/* Centering navbar */
+	.navbar .navbar-nav
+	{
+		display: inline-block;
+		float: right;
+		vertical-align: top;
+	}
+
+	/* Text size inside navbar */
+	.navbar .navbar-nav
+	{
+		font-size: 20px;
+	}
+}
+/* -------------------------------------------------------------------------- */
+/* Skills resume */
+.title-skills-resume
+{
+	font-family: "league-gothic-condensed-regular";
+}
+
+.skills-resume img
+{
+	display: inline;
+	width: 128px;
+	height: 128px;
+}
+
+.skills-resume .col-lg-4
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* -------------------------------------------------------------------------- */
+/* Resume section */
+.resume
+{
+	height:500px;
+	background-image: radial-gradient(white, grey);
+}
+
+.resume img
+{
+	margin-top:60px;
+}
+
+.resume .small-description
+{
+	position: center;
+	font-size: 40px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* Horizontal line - separator */
+hr
+{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* Resume-skills */
+.skills-resume
+{
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/* skills */
+.prices
+{
+}
+
+/* -------------------------------------------------------------------------- */
