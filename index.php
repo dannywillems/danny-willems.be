@@ -77,60 +77,96 @@
 		</div>
 <!----------------------------------------------------------------------------->
 		<!-- Skills Resume -->
-		<div class="container marketing">
-			<div class="row skills-resume">
-				<header>
-					Administrateur système
-				</header>
-				<div class="col-lg-4">
-					<img src="img/Linux_platform.png" class="img-responsive img-rounded" alt="linux_color" />
-					<img src="img/Free_BSD_color.png" class="img-responsive img-rounded" alt="freebsd_color" />
-					<header>
-						Linux et Unix.
-					</header>
-					<p>
-						Gestion de serveurs privés: je gère en
-						continu plusieurs serveurs privés tournant
-						sous des distributions Linux (Debian et
-						Ubuntu server) et anciennement sous FreeBSD.
-					</p>
-					<p>
-						Gestion d'un parc Linux utilisateur: ayant
-						fait découvrir la philosophie open-source à
-						mon entourage, je suis en charge de gérer
-						leur distribution Linux au quotidien.
-					</p>
-				</div>
-				<div class="col-lg-4">
-					<img src="img/terminal_color.png" class="img-responsive img-rounded" alt="terminal" />
-					<header>
-						Shell scripting
-					</header>
-					<p>
-						Pour automatiser les tâches, je suis amené à écrire des scripts shell et à utiliser cron ainsi que ses variantes.
-						La plupart des tâches que je réalise passent par le terminal.
-					</p>
-					<p>
-						Je maitrise également vim, celui-ci étant mon éditeur de texte et mon IDE dans chaque environnement et pour chaque langage.
-					</p>
-				</div>
+		<div class="container">
+			<div id="carousel-skills-resume" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-skills-resume" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-skills-resume" data-slide-to="1"></li>
+			    <li data-target="#carousel-skills-resume" data-slide-to="2"></li>
+			  </ol>
 
-				<div class="col-lg-4">
-					<img src="img/network.png" />
-					<header>
-						Réseau
-					</header>
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
 					<p>
-
+						Vous avez besoin de gérer un parc informatique important ? Vous cherchez quelqu'un pour gérer vos serveurs privés ?
 					</p>
-				</div>
+					<center>
+					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+						Plus de détails
+					</button>
+					<div class="collapse" id="collapseExample">
+					  <div class="well">
+					<div class="row skills-resume">
+						<div class="col-lg-4">
+							<img src="img/Linux_platform.png" class="img-responsive img-rounded" alt="linux_color" />
+							<img src="img/Free_BSD_color.png" class="img-responsive img-rounded" alt="freebsd_color" />
+							<header>
+								Linux et Unix.
+							</header>
+							<p>
+								Gestion de serveurs privés: je gère en
+								continu plusieurs serveurs privés tournant
+								sous des distributions Linux (Debian et
+								Ubuntu server) et anciennement sous FreeBSD.
+							</p>
+							<p>
+								Gestion d'un parc Linux utilisateur: ayant
+								fait découvrir la philosophie open-source à
+								mon entourage, je suis en charge de gérer
+								leur distribution Linux au quotidien.
+							</p>
+						</div>
+						<div class="col-lg-4">
+							<img src="img/terminal_color.png" class="img-responsive img-rounded" alt="terminal" />
+							<header>
+								Shell scripting
+							</header>
+							<p>
+								Pour automatiser les tâches, je suis amené à écrire des scripts shell et à utiliser cron ainsi que ses variantes.
+								La plupart des tâches que je réalise passent par le terminal.
+							</p>
+							<p>
+								Je maitrise également vim, celui-ci étant mon éditeur de texte et mon IDE dans chaque environnement et pour chaque langage.
+							</p>
+						</div>
+
+						<div class="col-lg-4">
+							<img src="img/network.png" />
+							<header>
+								Réseau
+							</header>
+							<p>
+
+							</p>
+						</div>
+					</div>
+					  </div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="row skills-resume">
+					</div>
+			      <div class="carousel-caption">
+						Développeur Web
+				  </div>
+			    </div>
+			</center>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-skills-resume" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-skills-resume" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
 			</div>
 
-			<div class="row skills-resume">
-				<header>
-					Développement logiciel
-				</header>
-			</div>
+
 
 			<div class="row skills-resume">
 				<header>
