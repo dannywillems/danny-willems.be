@@ -1,137 +1,16 @@
-/* -------------------------------------------------------------------------- */
-@size-header-title-section: 40px;
-
-/* Special fonts */
-@font-face
+.service-box
 {
-	font-family: "league-gothic-condensed-regular";
-	src: url("../fonts/leaguegothic-condensed-regular-webfont.ttf");
-}
-@font-face
-{
-	font-family: replay;
-	src: url("../fonts/replay.ttf");
-}
-
-@font-face
-{
-	font-family: "golden-age";
-	src: url("../fonts/Golden Age Shad.ttf");
-}
-
-@font-face
-{
-	font-family: "beyond";
-	src: url("../fonts/Beyond.ttf");
-}
-/* -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------------- */
-/* Navbar */
-.navbar
-{
-	/* Remove black space between navbar and resume */
-	margin-bottom: 0px;
-}
-
-/* Centering navbar */
-@media (min-width: 780px)
-{
-	.navbar .navbar-nav
+	button
 	{
-		display: inline-block;
-		float: right;
-		vertical-align: top;
-		font-size: 20px;
+    	margin-top:20px;
 	}
-}
-/* -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------------- */
-/* Resume section */
-.resume
-{
-	background-image: radial-gradient(white, grey);
-}
-
-.resume img
-{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.resume header
-{
-	font-size: @size-header-title-section;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-family: beyond;
-}
-
-.resume .resume-presentation
-{
-	padding-left: 50px;
-}
-
-.resume .resume-presentation header, .resume .resume-presentation p
-{
-	text-align: center;
-}
-/* -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------------- */
-/* Skills resume */
-header
-{
-	padding-top:20px;
-	text-align: center;
-	font-size: @size-header-title-section;
-	font-family: replay;
-}
-
-.skills-resume .col-lg-4
-{
-	text-align: center; /* align image and texts */
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.skills-resume .col-lg-4 header
-{
-	font-size: 28px;
-}
-
-.skills-resume img
-{
-	display: inline;
-	width: 128px;
-	height: 128px;
-}
-/* -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------------- */
-/* Horizontal line - separator */
-hr
-{
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-}
-/* -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------------- */
-/* Prices */
-.prices header
-{
-	padding-top: 20px;
-	text-align: center;
-	font-size: @size-header-title-section;
-}
-/* -------------------------------------------------------------------------- */
-
-.projects header
-{
-	padding-top: 20px;
-	text-align: center;
-	font-size: @size-header-title-section;
+    img
+    {
+        width: 128px;
+        height: 128px;
+    }
+    .collapse
+    {
+        margin-top:20px;
+    }
 }
