@@ -157,7 +157,7 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#distinctions">Prix</a>
+                        <a class="page-scroll" href="#distinctions">Distinctions et Prix</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projets</a>
@@ -238,7 +238,9 @@
                             "Mais ce n'est pas tout. Il est nécesssaire de
                             gérer une base de donnée de vos utilisateurs, de
                             vos articles.",
-                            "Blabla bla",
+                            "Je me charge de déployer votre base de données, à
+                            petite ou grande échelle, sur un seul ou sur
+                            plusieurs serveurs, selon votre choix.",
                             array(  "PHP",
                                     "SQL + MySQL"),
                             array(  "MongoDB")
@@ -409,137 +411,41 @@
         end_services();
     ?>
 
-    <!-- Prices: hackathon bewan -->
+    <hr class="hr-section">
+
     <section id="distinctions">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 text-center">
-                    <article class="jumbotron">
-                        <div class="container">
-                            <h1 class="header-distinctions"><a href="http://www.be-hackathon.be/?lang=fr">Hackathon bewan</a></h1>
-                            <h1 class="header-distinctions">Metro - 1ier Prix</h1>
-                            <p>Hello World</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-lg-4">
-                    <img class="fa fa-4x img-responsive" src="img/metro.png">
+                <div class="col-lg-12 text-center">
+                    <h2>
+                        Distinctions et prix
+                    </h2>
+                    <h3 class="text-info">
+                        Bientôt disponibles
+                    </h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="distinctions">
-        <div class="container">
-
-        </div>
-    </section>
     <hr class="hr-section">
 
-    <!-- Prices: hackathon Société Générale -->
-    <!--
-    <section id="distinctions">
-    </section>
-    -->
-
-    <!--
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>
+                        Projets
+                    </h2>
+                    <h3 class="text-info">
+                        Bientôt disponibles
+                    </h3>
                 </div>
             </div>
         </div>
     </section>
-    -->
+
+    <hr class="hr-section">
 
     <section id="contact">
         <div class="container">
