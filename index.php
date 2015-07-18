@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -33,121 +33,122 @@
 </head>
 
 <body id="page-top">
-<?php
-function begin_services()
-{
-    echo "<section id='services'>";
-}
+    <?php
+    function begin_services()
+    {
+        echo "<section id='services'>";
+    }
 
-function end_services()
-{
-    echo "</section>";
-}
+    function end_services()
+    {
+        echo "</section>";
+    }
 
-function begin_services_box()
-{
-    echo "<div class='container'>
-        <div class='row'>";
-}
+    function begin_services_box()
+    {
+        echo "<div class='container'>
+            <div class='row'>";
+    }
 
-function end_services_box()
-{
-    echo "</div></div>";
-}
+    function end_services_box()
+    {
+        echo "</div></div>";
+    }
 
-function new_services_header($name_services, $description)
-{
-    echo "<div class='container'>
-        <div class='row'>
-            <div class='col-lg-12 text-center'>
-                <h2 class='section-heading'>" . $name_services . "</h2>
-                <h3>" . $description . "</h3>
-                <hr class='primary'>
+    function new_services_header($name_services, $description)
+    {
+        echo "<div class='container'>
+            <div class='row'>
+                <div class='col-lg-12 text-center'>
+                    <h2 class='section-heading'>" . $name_services . "</h2>
+                    <h3>" . $description . "</h3>
+                    <hr class='primary'>
+                </div>
             </div>
-        </div>
-    </div>";
-}
+        </div>";
+    }
 
-function add_img($name_var, $img)
-{
-    echo "<img class='fa fa-4x wow bounceIn text-primary' alt=" . $name_var . " src=" . $img . "></img>";
-}
+    function add_img($name_var, $img)
+    {
+        echo "<img class='fa fa-4x wow bounceIn text-primary' alt=" . $name_var . " src=" . $img . "></img>";
+    }
 
-function print_name_box($name_box)
-{
-    echo "<h3>" . $name_box . "</h3>";
-}
+    function print_name_box($name_box)
+    {
+        echo "<h3>" . $name_box . "</h3>";
+    }
 
-function print_text_danger($text_danger)
-{
-    echo "<p class='text-danger'>";
-        echo $text_danger;
-        echo "</p>";
-}
+    function print_text_danger($text_danger)
+    {
+        echo "<p class='text-danger'>";
+            echo $text_danger;
+            echo "</p>";
+    }
 
-function print_text_success($text_success)
-{
-    echo "<p class='text-success'>";
-        echo $text_success;
-        echo "</p>";
-}
+    function print_text_success($text_success)
+    {
+        echo "<p class='text-success'>";
+            echo $text_success;
+            echo "</p>";
+    }
 
-function add_button_skills($name_var, $skills)
-{
-    echo "<button class='btn btn-info btn-xl' type='button' data-toggle='collapse' data-target='#collapse-" . $name_var . "' aria-expanded='false' aria-controls='collapse-" . $name_var . "'>
-        Mes compétences
-    </button>";
-    echo "<div class='collapse' id='collapse-" . $name_var . "'>
-        <div class='well'>
-            <ul>";
-                foreach ($skills as $skill)
-                    echo "<li>" . $skill . "</li>";
-    echo "</ul></div></div>";
-}
+    function add_button_skills($name_var, $skills)
+    {
+        echo "<button class='btn btn-info btn-xl' type='button' data-toggle='collapse' data-target='#collapse-" . $name_var . "' aria-expanded='false' aria-controls='collapse-" . $name_var . "'>
+            Mes compétences
+        </button>";
+        echo "<div class='collapse' id='collapse-" . $name_var . "'>
+            <div class='well'>
+                <ul>";
+                    foreach ($skills as $skill)
+                        echo "<li>" . $skill . "</li>";
+        echo "</ul></div></div>";
+    }
 
-function add_button_skills_to_learn($name_var, $skills)
-{
-    echo "<button class='btn btn-primary btn-xl' type='button' data-toggle='collapse' data-target= '#collapse-" . $name_var . "-to-learn' aria-expanded='false' aria-controls='collapse-" . $name_var . "-to-learn'>
-       Impatient d'apprendre
-    </button>";
-    echo "<div class='collapse' id='collapse-" . $name_var . "-to-learn'>
-        <div class='well'>
-            <ul>";
-                foreach ($skills as $skill)
-                    echo "<li>" . $skill . "</li>";
-    echo "</ul></div></div>";
-}
+    function add_button_skills_to_learn($name_var, $skills)
+    {
+        echo "<button class='btn btn-primary btn-xl' type='button' data-toggle='collapse' data-target= '#collapse-" . $name_var . "-to-learn' aria-expanded='false' aria-controls='collapse-" . $name_var . "-to-learn'>
+           Impatient d'apprendre
+        </button>";
+        echo "<div class='collapse' id='collapse-" . $name_var . "-to-learn'>
+            <div class='well'>
+                <ul>";
+                    foreach ($skills as $skill)
+                        echo "<li>" . $skill . "</li>";
+        echo "</ul></div></div>";
+    }
 
-function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $text_success, $skills, $skills_to_learn)
-{
-    echo "<div class='col-lg-" . $row_size . " col-md-6 text-center'><div class='service-box'>";
-    add_img($name_var, $img);
-    print_name_box($name_box);
-    if (!empty($text_danger))
-        print_text_danger($text_danger);
-    if (!empty($text_success))
-        print_text_success($text_success);
-    add_button_skills($name_var, $skills);
-    if (!empty($skills_to_learn))
-        add_button_skills_to_learn($name_var, $skills_to_learn);
-    echo "</div></div>";
-}
-?>
+    function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $text_success, $skills, $skills_to_learn)
+    {
+        echo "<div class='col-lg-" . $row_size . " col-md-6 text-center'><div class='service-box'>";
+        add_img($name_var, $img);
+        print_name_box($name_box);
+        if (!empty($text_danger))
+            print_text_danger($text_danger);
+        if (!empty($text_success))
+            print_text_success($text_success);
+        add_button_skills($name_var, $skills);
+        if (!empty($skills_to_learn))
+            add_button_skills_to_learn($name_var, $skills_to_learn);
+        echo "</div></div>";
+    }
+    ?>
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <nav class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Danny Willems</a>
-            </div>
+            </nav>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <nav class="collapse navbar-collapse" id="bs-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#about"></a>
@@ -165,7 +166,7 @@ function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -187,7 +188,9 @@ function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $
                     Raspberry Pi.</p>
                 <p>Pour parfaire mes compétences de développeur, j'ai
                     participé, en juillet 2014, à la piscine de <a
-                        href="http://42.fr">42</a>.</p>
+                        href="http://42.fr">42</a>. Je réalise depuis les
+                    projets de l'école individuellement et compte l'intégrer
+                    dans la promotion 2015-2016.</p>
                 <p>Je suis capable d'assimiler assez rapidement de nouvelles
                     technologies, de nouveaux langages, de nouveaux frameworks
                     et je suis toujours à la recherche de nouvelles
@@ -252,7 +255,7 @@ function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $
                             array(  "Amazon Web Services (AWS)",
                                     "OVH",
                                     "DigitalOcean"),
-                            FALSE
+                            array(  "Autres hébergeurs")
                         );
         new_services_box(   "3",
                             "Maintenance",
@@ -411,18 +414,26 @@ function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 text-center">
-                    <article>
-                        <header class="header-distinctions">Hackathon bewan - Metro - 1ier Prix</header>
-                        <p> </p>
+                    <article class="jumbotron">
+                        <div class="container">
+                            <h1 class="header-distinctions"><a href="http://www.be-hackathon.be/?lang=fr">Hackathon bewan</a></h1>
+                            <h1 class="header-distinctions">Metro - 1ier Prix</h1>
+                            <p>Hello World</p>
+                        </div>
                     </article>
                 </div>
                 <div class="col-lg-4">
-                    <img />
+                    <img class="fa fa-4x img-responsive" src="img/metro.png">
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="distinctions">
+        <div class="container">
+
+        </div>
+    </section>
     <hr class="hr-section">
 
     <!-- Prices: hackathon Société Générale -->
