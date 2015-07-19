@@ -34,109 +34,11 @@
 
 <body id="page-top">
     <?php
-    function begin_services()
-    {
-        echo "<section id='services'>";
-    }
-
-    function end_services()
-    {
-        echo "</section>";
-    }
-
-    function begin_services_box()
-    {
-        echo "<div class='container'>
-            <div class='row'>";
-    }
-
-    function end_services_box()
-    {
-        echo "</div></div>";
-    }
-
-    function new_services_header($name_services, $description)
-    {
-        echo "<div class='container'>
-            <div class='row'>
-                <div class='col-lg-12 text-center'>
-                    <h2 class='section-heading'>" . $name_services . "</h2>
-                    <h3>" . $description . "</h3>
-                    <hr class='primary'>
-                </div>
-            </div>
-        </div>";
-    }
-
-    function add_img($name_var, $img)
-    {
-        echo "<img class='fa fa-4x wow bounceIn text-primary' alt=" . $name_var . " src=" . $img . "></img>";
-    }
-
-    function print_name_box($name_box)
-    {
-        echo "<h3>" . $name_box . "</h3>";
-    }
-
-    function print_text_danger($text_danger)
-    {
-        echo "<p class='text-danger'>";
-            echo $text_danger;
-            echo "</p>";
-    }
-
-    function print_text_success($text_success)
-    {
-        echo "<p class='text-success'>";
-            echo $text_success;
-            echo "</p>";
-    }
-
-    function add_button_skills($name_var, $skills)
-    {
-        echo "<button class='btn btn-info btn-xl' type='button' data-toggle='collapse' data-target='#collapse-" . $name_var . "' aria-expanded='false' aria-controls='collapse-" . $name_var . "'>
-            Mes compétences
-        </button>";
-        echo "<div class='collapse' id='collapse-" . $name_var . "'>
-            <div class='well'>
-                <ul>";
-                    foreach ($skills as $skill)
-                        echo "<li>" . $skill . "</li>";
-        echo "</ul></div></div>";
-    }
-
-    function add_button_skills_to_learn($name_var, $skills)
-    {
-        echo "<button class='btn btn-primary btn-xl' type='button' data-toggle='collapse' data-target= '#collapse-" . $name_var . "-to-learn' aria-expanded='false' aria-controls='collapse-" . $name_var . "-to-learn'>
-           Impatient d'apprendre
-        </button>";
-        echo "<div class='collapse' id='collapse-" . $name_var . "-to-learn'>
-            <div class='well'>
-                <ul>";
-                    foreach ($skills as $skill)
-                        echo "<li>" . $skill . "</li>";
-        echo "</ul></div></div>";
-    }
-
-    function new_services_box($row_size, $name_box, $name_var, $img, $text_danger, $text_success, $skills, $skills_to_learn)
-    {
-        echo "<div class='col-lg-" . $row_size . " col-md-6 text-center'><div class='service-box'>";
-        add_img($name_var, $img);
-        print_name_box($name_box);
-        if (!empty($text_danger))
-            print_text_danger($text_danger);
-        if (!empty($text_success))
-            print_text_success($text_success);
-        add_button_skills($name_var, $skills);
-        if (!empty($skills_to_learn))
-            add_button_skills_to_learn($name_var, $skills_to_learn);
-        echo "</div></div>";
-    }
+        include("include.php");
     ?>
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <nav class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -147,7 +49,6 @@
                 <a class="navbar-brand page-scroll" href="#page-top">Danny Willems</a>
             </nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <nav class="collapse navbar-collapse" id="bs-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -157,7 +58,7 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#distinctions">Prix</a>
+                        <a class="page-scroll" href="#distinctions">Distinctions et Prix</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projets</a>
@@ -167,9 +68,7 @@
                     </li>
                 </ul>
             </nav>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
     <header>
@@ -188,7 +87,7 @@
                     Raspberry Pi.</p>
                 <p>Pour parfaire mes compétences de développeur, j'ai
                     participé, en juillet 2014, à la piscine de <a
-                        href="http://42.fr">42</a>. Je réalise depuis les
+                        href="http://42.fr/notre-pedagogie-principe/">42</a>. Je réalise depuis les
                     projets de l'école individuellement et compte l'intégrer
                     dans la promotion 2015-2016.</p>
                 <p>Je suis capable d'assimiler assez rapidement de nouvelles
@@ -238,7 +137,9 @@
                             "Mais ce n'est pas tout. Il est nécesssaire de
                             gérer une base de donnée de vos utilisateurs, de
                             vos articles.",
-                            "Blabla bla",
+                            "Je me charge de déployer votre base de données, à
+                            petite ou grande échelle, sur un seul ou sur
+                            plusieurs serveurs, selon votre choix.",
                             array(  "PHP",
                                     "SQL + MySQL"),
                             array(  "MongoDB")
@@ -409,21 +310,59 @@
         end_services();
     ?>
 
+    <hr class="section-separation">
+
     <!-- Prices: hackathon bewan -->
     <section id="distinctions">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 text-center">
-                    <article class="jumbotron">
-                        <div class="container">
-                            <h1 class="header-distinctions"><a href="http://www.be-hackathon.be/?lang=fr">Hackathon bewan</a></h1>
-                            <h1 class="header-distinctions">Metro - 1ier Prix</h1>
-                            <p>Hello World</p>
-                        </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">
+                        Distinctions et prix
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <hr class="primary">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <article class="text-center">
+                        <h1><a href="http://www.be-hackathon.be/?lang=fr">Hackathon bewan</a></h1>
+                        <h1><em>Metro</em> - 1er Prix</h1>
+                        <p class="text-primary">
+                            <em>Metro</em> est une application Android, conçue
+                            principalement pour les personnes aveugles ou
+                            malvoyantes, qui assiste ces dernières lors de
+                            trajet en métro.
+                        </p>
+                        <p class="text-danger">
+                            Il n'est pas toujours facile de s'y retrouver
+                            lorsque nous sommes à une station de
+                            transport public, en particulier les métros.
+                            Plusieurs lignes sont desservies au même
+                            endroit, et bien qu'il existe des panneaux pour
+                            se diriger, les personnes ayant des problèmes
+                            de vision ont des difficultés à s'orienter.
+                        </p>
+                        <p class="text-success">
+                            Connecté à l'API des transports publics et
+                            dialoguant avec un réseau de iBeacons disposés
+                            à chaque station, <em>Metro</em> vous dirige et
+                            vous prévient, grace à la synthèse vocale, des
+                            prochains métros qui arriveront.
+                        </p>
+                        <p class="text-info">
+                            L'organisation ne disposant pas d'iBeacons, j' ai
+                            été chargé d'en simuler à partir de <em>Raspberry
+                                Pi</em> et d'adaptateur Bluetooth LE.
+                        </p>
                     </article>
                 </div>
                 <div class="col-lg-4">
-                    <img class="fa fa-4x img-responsive" src="img/metro.png">
+                    <img class="img-responsive center-block" src="img/hackathon_metro.png" />
                 </div>
             </div>
         </div>
@@ -431,16 +370,58 @@
 
     <section id="distinctions">
         <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <img class="img-responsive center-block" src="img/hackathon_wecare4u.png" />
+                </div>
+                <div class="col-lg-8">
+                    <article>
+                        <h1>
+                            <a href="http://sgconnectedhack.bemyapp.com/">
+                                 Hackathon SG Connected
+                            </a>
+                        </h1>
+                        <h1>
+                            <em>WeCare4U</em> - 3ème prix
+                        </h1>
+                        <p class="text-primary">
+                            <em>WeCare4U</em> est une application fonctionnant
+                            sur les montres connectées Pebble accompagnée d'une
+                            application Android qui détecte les chutes, voire
+                            les collisions lors d'accidents, et prévient
+                            automatiquement les services d'urgences et vos
+                            proches si vous avez besoin d'aide.
+                        </p>
+                        <p class="text-danger">
+                            Que vous soyez cycliste, motard, personne agée ou
+                            que vous ayez du mal à vous déplacer, une chute est
+                            vite arrivée et celle-ci peut avoir de conséquences
+                            assez graves.
+                        </p>
+                        <p class="text-success">
+                            WeCare4U est là pour vous
+                            aider. Dès qu'une chute est détectée, la montre
+                            vibre et un message s'affiche. Si après un certain
+                            delai, vous n'avez pas répondu au message en ayant
+                            appuyé sur un bouton, les urgences et vos proches
+                            sont prévenus. Votre position, votre numéro de
+                            téléphone et tout autre information que vous
+                            aurez accepté de partager seront transmis pour un
+                            meilleur secours.
+                        </p>
+                        <p class="text-info">
+                            J'ai été amené à apprendre, lors de ce
+                            hackathon, le développement d'applications sur
+                            Android et Pebble.
+                        </p>
+                    </article>
+                </div>
+            </div>
 
         </div>
     </section>
-    <hr class="hr-section">
 
-    <!-- Prices: hackathon Société Générale -->
-    <!--
-    <section id="distinctions">
-    </section>
-    -->
+    <hr class="section-separation">
 
     <!--
     <section class="no-padding" id="portfolio">
@@ -545,7 +526,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contacts</h2>
+                    <h2 class="section-heading">Contact</h2>
                     <hr class="primary">
                     <p>Vous souhaitez me contacter ?</p>
                 </div>
