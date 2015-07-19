@@ -422,6 +422,23 @@
 
     <hr class="section-separation">
 
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">
+                       Projets
+                    </h2>
+                    <h3 class="text-info">
+                        Bientôt disponibles
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-separation">
+
     <section id="contact">
         <div class="container">
             <div class="row">
