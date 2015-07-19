@@ -367,6 +367,8 @@
         </div>
     </section>
 
+    <hr class="primary">
+
     <section id="distinctions">
         <div class="container">
             <div class="row text-center">
