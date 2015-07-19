@@ -457,7 +457,7 @@
         </div>
     </section>
 
-    <footer class="footer navbar-fixed-bottom text-center">
+    <footer class="text-center">
         WeCare4U logo was designed by <em><a href="http://www.charlottebretonsch.com/">Charlotte Breton Schreiner</a></em>. All others logos come from <a href="http://iconfinder.com">IconFinder</a>
     </footer>
     <!-- jQuery -->
