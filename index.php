@@ -76,7 +76,7 @@
             <div class="header-content-inner">
                 <h1>Danny Willems</h1>
                 <hr>
-                <p>Etudiant de 4ième année (MA1) en sciences mathématiques à
+                <p>Etudiant de 3ième année (BAC3) en sciences mathématiques à
                     l'université de Mons (<a
                         href="http://www.umons.ac.be">UMONS</a>).</p>
                 <p>En plus d'avoir suivi une spécialisation en physique lors de
@@ -97,6 +97,14 @@
                     vous cherchez, informez-en moi, je me documenterai et m'y
                     formerai.</p>
                 <a href="#services" class="btn btn-info btn-xl page-scroll">En savoir plus sur moi</a>
+                <p>
+                    <a class="icon-website btn" href="http://be.linkedin.com/in/dannywillems42">
+                        <img src="img/linkedin.png" />
+                    </a>
+                    <a class="icon-website btn" href="http://github.com/dannywillems">
+                        <img src="img/github.png" />
+                    </a>
+                </p>
             </div>
         </div>
     </header>
@@ -457,9 +465,11 @@
         </div>
     </section>
 
-    <footer class="text-center">
-        WeCare4U logo was designed by <em><a href="http://www.charlottebretonsch.com/">Charlotte Breton Schreiner</a></em>. All others logos come from <a href="http://iconfinder.com">IconFinder</a>
-    </footer>
+    <div class="row">
+        <footer class="col-lg-12 text-center">
+            WeCare4U logo was designed by <em><a href="http://www.charlottebretonsch.com/">Charlotte Breton Schreiner</a></em>. All others logos come from <a href="http://iconfinder.com">IconFinder</a>
+        </footer>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
