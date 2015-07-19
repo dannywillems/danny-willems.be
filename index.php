@@ -93,7 +93,7 @@
                 <p>Je suis capable d'assimiler assez rapidement de nouvelles
                     technologies, de nouveaux langages, de nouveaux frameworks
                     et je suis toujours à la recherche de nouvelles
-                    connaissances. Si je ne dispose d'une des compétences que
+                    connaissances. Si je ne dispose pas d'une des compétences que
                     vous cherchez, informez-en moi, je me documenterai et m'y
                     formerai.</p>
                 <a href="#services" class="btn btn-info btn-xl page-scroll">En savoir plus sur moi</a>
