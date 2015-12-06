@@ -59,10 +59,13 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#distinctions">Distinctions</a>
+                        <a class="page-scroll" href="#distinctions">Distinctions & Events</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projets</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://blog.danny-willems.be">Blog</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -96,6 +99,9 @@
         </div>
     </header>
 
+    <h2 class="text-center">
+        Services
+    </h2>
     <section id="services">
         <div class="container">
             <div class="row">
@@ -164,10 +170,13 @@
 
     <hr class="section-separation">
 
+    <h2 class="text-center">
+         Distinctions & Events
+    </h2>
     <section id="distinctions">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
                             <img class="" src="img/behackathon.png">
@@ -193,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
                             <img class="" src="img/kissyourteacher.png">
@@ -219,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
                             <img class="" src="img/sgconnectedhack.png">
@@ -227,6 +236,58 @@
                         <div class="card-header">
                             <p class="card-title">SG Connected Hack</p>
                             <p class="card-subtitle">3rd Price</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            <!-- <div class="row"> -->
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/appforstudents.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">App For Students</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/appforstudents.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">App For Students</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
