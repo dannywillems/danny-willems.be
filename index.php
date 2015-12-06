@@ -261,10 +261,6 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -286,10 +282,6 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -319,14 +311,11 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">Vim-IDE</p>
+                            <p class="card-subtitle"><a href="http://github.com/vim-ide/vim-ide">Hosted on Github</a></p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -344,14 +333,11 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">GSLib</p>
+                            <p class="card-subtitle">In development</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -369,14 +355,11 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">GSMath</p>
+                            <p class="card-subtitle">In development</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -394,14 +377,11 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">Open Courses</p>
+                            <p class="card-subtitle">In development</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -412,6 +392,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/appforstudents.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">CustomizeCalendars</p>
+                            <p class="card-subtitle"><a href="http://github.com/dannywillems/customizecalendars.ionic">Hosted on Github</a></p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                CustomizeCalendars let you customize your
+                                online shared calendars. It offers you to
+                                choose which events you want to go to, and
+                                mofify the events name with your own name
+                                without changing the original shared calendars
+                                values.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -435,10 +444,6 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
@@ -460,10 +465,6 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
                             </p>
                         </div>
                         <hr></hr>
