@@ -34,10 +34,6 @@
 </head>
 
 <body id="page-top">
-    <?php
-        include("include.php");
-    ?>
-
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <nav class="navbar-header">
@@ -62,7 +58,7 @@
                         <a class="page-scroll" href="#distinctions">Distinctions & Hackathons</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#projects">Projets</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="http://blog.danny-willems.be">Blog</a>
@@ -99,10 +95,7 @@
         </div>
     </header>
 
-    <h2 class="text-center">
-        Services
-    </h2>
-    <section id="services">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-12">
@@ -170,10 +163,10 @@
 
     <hr class="section-separation">
 
-    <h2 class="text-center">
+    <h2 id="distinctions" class="text-center">
          Distinctions &amp; Hackathons
     </h2>
-    <section id="distinctions">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-4">
@@ -188,10 +181,13 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
+                                The theme of this hackathon was "People with
+                                diseabilities". We developed an Android
+                                application, Metro, helping blind people to
+                                know when and where the next metro comes.
+                                <br />
+                                We used iBeacon I made with an Raspberri Pi and
+                                a bluetooth LE adapter.
                             </p>
                         </div>
                         <hr></hr>
@@ -214,10 +210,13 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
+                                How to learn something easily ? With Serious
+                                Game ! We developed a serious game based on the
+                                immune system, called ImmuneWar. T-cell against
+                                B-cell, which will win ?
+                                <br />
+                                During this hackathon, I learned the basics of
+                                Unity3D and the world of game development.
                             </p>
                         </div>
                         <hr></hr>
@@ -240,10 +239,7 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                 Metro est une application Android, conçue
-                                 principalement pour les personnes aveugles ou
-                                 malvoyantes, qui assiste ces dernières lors de
-                                 trajet en métro.
+
                             </p>
                         </div>
                         <hr></hr>
@@ -254,8 +250,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- </div> -->
-            <!-- <div class="row"> -->
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
@@ -310,6 +304,180 @@
         </div>
     </section>
 
+    <hr class="section-separation">
+
+    <h2 id="projects" class="text-center">
+        Personal projects
+    </h2>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/behackathon.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">Vim-IDE</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/kissyourteacher.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">GSLib</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/sgconnectedhack.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">GSMath</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/appforstudents.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">Open Courses</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-separation">
+
+    <h2 class="text-center">
+        They Trust Me
+    </h2>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/behackathon.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">Craie à Bois</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="" src="img/kissyourteacher.png">
+                        </div>
+                        <div class="card-header">
+                            <p class="card-title">Le Coin Quotidien</p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-content">
+                            <p>
+                                 Metro est une application Android, conçue
+                                 principalement pour les personnes aveugles ou
+                                 malvoyantes, qui assiste ces dernières lors de
+                                 trajet en métro.
+                            </p>
+                        </div>
+                        <hr></hr>
+                        <div class="card-footer">
+                            <p>
+                                 <a href="#">More details</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -326,11 +494,6 @@
         </div>
     </section>
 
-    <div class="row">
-        <footer class="col-lg-12 text-center">
-            WeCare4U logo was designed by <em><a href="http://www.charlottebretonsch.com/">Charlotte Breton Schreiner</a></em>. All others logos come from <a href="http://iconfinder.com">IconFinder</a>
-        </footer>
-    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
