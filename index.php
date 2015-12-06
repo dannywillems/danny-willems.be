@@ -59,7 +59,7 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#distinctions">Distinctions & Events</a>
+                        <a class="page-scroll" href="#distinctions">Distinctions & Hackathons</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projets</a>
@@ -171,7 +171,7 @@
     <hr class="section-separation">
 
     <h2 class="text-center">
-         Distinctions & Events
+         Distinctions &amp; Hackathons
     </h2>
     <section id="distinctions">
         <div class="container">
@@ -287,7 +287,7 @@
                             <img class="" src="img/appforstudents.png">
                         </div>
                         <div class="card-header">
-                            <p class="card-title">App For Students</p>
+                            <p class="card-title">MIC Summer Camp</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
