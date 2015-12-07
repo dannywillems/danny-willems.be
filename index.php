@@ -176,13 +176,15 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">Be-Hackathon</p>
-                            <p class="card-subtitle">1st Price</p>
+                            <p class="card-subtitle">1st Price : Metro</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
                                 The theme of this hackathon was "People with
-                                diseabilities". We developed an Android
+                                diseabilities".
+                                <br />
+                                We developed an Android
                                 application, Metro, helping blind people to
                                 know when and where the next metro comes.
                                 <br />
@@ -205,13 +207,15 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">Kiss Your Teacher</p>
-                            <p class="card-subtitle">3rd Price</p>
+                            <p class="card-subtitle">3rd Price : ImmuneWar</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
                                 How to learn something easily ? With Serious
-                                Game ! We developed a serious game based on the
+                                Game !
+                                <br />
+                                We developed a serious game based on the
                                 immune system, called ImmuneWar. T-cell against
                                 B-cell, which will win ?
                                 <br />
@@ -234,12 +238,22 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">SG Connected Hack</p>
-                            <p class="card-subtitle">3rd Price</p>
+                            <p class="card-subtitle">3rd Price : WeCare4You</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
+                                Soon, the entire world will be full connected
+                                and connected devices will help us in the daily life.
 
+                                We build a Pebble and an Android applications
+                                called <em>WeCare4You</em>
+                                A fall detection algorithm is implemented into
+                                the smartwatch and when the user fall, the
+                                smartwatch prevents the urgency if the user
+                                needs help.
+
+                                <b>The project is in development</b>
                             </p>
                         </div>
                         <hr></hr>
@@ -257,10 +271,21 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">App For Students</p>
+                            <p class="card-subtitle">Student App</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
+                               Facebook, Twitter and all social network
+                               platforms have been a revolution in our daily
+                               life. It changed our way to communicate.
+                               <br />
+                               Theses platforms are used by millions of
+                               students, but no one offers a real experience
+                               for them.
+                               <br />
+                               During this 24h hackathon, we tried to build a
+                               new concept of social network.
                             </p>
                         </div>
                         <hr></hr>
@@ -274,14 +299,24 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/appforstudents.png">
+                            <img class="" src="img/softlab.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">MIC Summer Camp</p>
+                            <p class="card-subtitle">GPSTracker - In development</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
+                                GPSTracker, a small device build with Arduino,
+                                registers your position every second. After
+                                your travel or your jogging, activate your
+                                bluetooth or connect it to your computer to
+                                retrieve data and use one of our applications
+                                to see your statistics or your travel.
+
+                                You can use the device during several days
+                                without recharging it.
                             </p>
                         </div>
                         <hr></hr>
@@ -307,7 +342,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/behackathon.png">
+                            <img class="" src="img/vim-ide.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">Vim-IDE</p>
@@ -316,6 +351,19 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
+                                I think every vim user is agree if I say vim is
+                                a wonderful text editor with his key mappings
+                                and his modes.
+
+                                Vim isn't configured to develop with and we
+                                need to install loads of plugins.
+
+                                These things take time, and we (developers)
+                                don't want to lost time to configure our IDE.
+
+                                So, vim-IDE is here to help you. It integrates
+                                a list of plugins which will transform vim in a
+                                full IDE, and it's easy to install.
                             </p>
                         </div>
                         <hr></hr>
@@ -338,7 +386,16 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                            </p>
+                               When we learn a new programming language, we
+                               must read a lot of documentation to know which
+                               basic functions do what we want such as create a
+                               linked list, a tree, a graph, ...
+                               GSLib is a library, written in multiple
+                               languages, keeping the same structure and
+                               offering the same functions and data structures
+                               for all language, which let you easily switch to
+                               a new language.
+                           </p>
                         </div>
                         <hr></hr>
                         <div class="card-footer">
@@ -360,6 +417,12 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
+                                In the same idea than GSLib, GSMath is a
+                                library, available in multiple languages,
+                                keeping the same structure and the same
+                                functions. GSMath provides function to make
+                                linear algebra (matrix), differential analysis,
+                                basic algebra, trigonometry, ...
                             </p>
                         </div>
                         <hr></hr>
@@ -373,15 +436,24 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/appforstudents.png">
+                            <img class="" src="img/open-courses.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">Open Courses</p>
-                            <p class="card-subtitle">In development</p>
+                            <p class="card-subtitle">In development: <a href="http://open-courses.org">Available here</a></p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
                             <p>
+                                Education is the key ! Knowledge must be free,
+                                available for everyone, everywhere and everyone
+                                must be allowed to bring something to it. We
+                                must have courses to learn. Open Courses is a
+                                collaborative platform containing courses on
+                                several subject.
+
+                                You have something to learn to someone: be
+                                collaborative, create an open course !
                             </p>
                         </div>
                         <hr></hr>
@@ -395,11 +467,11 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/appforstudents.png">
+                            <img class="" src="img/customizecalendars.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">CustomizeCalendars</p>
-                            <p class="card-subtitle"><a href="http://github.com/dannywillems/customizecalendars.ionic">Hosted on Github</a></p>
+                            <p class="card-subtitle">In development: <a href="http://github.com/dannywillems/customizecalendars.ionic">Hosted on Github</a></p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
