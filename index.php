@@ -377,7 +377,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/kissyourteacher.png">
+                            <img class="" src="img/gslib.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">GSLib</p>
@@ -408,7 +408,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/sgconnectedhack.png">
+                            <img class="" src="img/gsmath.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">GSMath</p>
