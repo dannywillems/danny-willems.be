@@ -95,7 +95,7 @@
         </div>
     </header>
 
-    <h2 class="text-center" id="#services">
+    <h2 class="text-center" id="services">
         Services
     </h2>
     <section>
