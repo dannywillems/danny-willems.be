@@ -392,8 +392,8 @@
                                linked list, a tree, a graph, ...
                                GSLib is a library, written in multiple
                                languages, keeping the same structure and
-                               offering the same functions and data structures
-                               for all language, which let you easily switch to
+                               providing the same functions and data structures
+                               for all languages, which let you easily switch to
                                a new language.
                            </p>
                         </div>
@@ -420,7 +420,7 @@
                                 In the same idea than GSLib, GSMath is a
                                 library, available in multiple languages,
                                 keeping the same structure and the same
-                                functions. GSMath provides function to make
+                                functions. GSMath provides functions to do
                                 linear algebra (matrix), differential analysis,
                                 basic algebra, trigonometry, ...
                             </p>
@@ -497,6 +497,7 @@
         </div>
     </section>
 
+    <!--
     <hr class="section-separation">
 
     <h2 class="text-center">
@@ -550,6 +551,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <section id="contact">
         <div class="container">
