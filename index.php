@@ -190,6 +190,8 @@
                                 <br />
                                 We used iBeacon I made with an Raspberri Pi and
                                 a bluetooth LE adapter.
+                                <br />
+                                <b>The project is in development</b>
                             </p>
                         </div>
                         <hr></hr>
