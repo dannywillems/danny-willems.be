@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio Danny Willems belgique belgium danny-willems.be Développeur web logiciel software administrateur système">
+    <meta name="description" content="Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer">
     <meta name="author" content="Danny Willems">
 
-    <title>Danny Willems - Développeur Web, logiciel et administrateur réseau</title>
+    <title>Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
