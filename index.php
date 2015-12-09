@@ -200,7 +200,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/be-hackathon-metro-1st-price/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/kiss-your-teacher-immunewar-3rd-price/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/sgconnected-hack-wecare4u-3rd-price/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/app-for-students-student-app/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/mic-summer-camp-gpstracker/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -374,7 +374,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/vim-ide/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -405,7 +405,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/gslib/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -433,7 +433,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/gsmath">More details</a>
                             </p>
                         </div>
                     </div>
@@ -464,7 +464,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/open-courses/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -492,7 +492,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="#">More details</a>
+                                 <a href="http://blog.danny-willems.be/index.php/customizecalendars/">More details</a>
                             </p>
                         </div>
                     </div>
