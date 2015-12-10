@@ -82,7 +82,7 @@
                 <p>
                     <img class="dw-img-profile dw-img-rounded" src="img/personal.jpg" />
                 </p>
-                <a href="#services" class="btn btn-info btn-xl page-scroll">En savoir plus sur moi</a>
+                <a href="#services" class="btn btn-info btn-xl page-scroll">More about me</a>
                 <div>
                     <a class="icon-website btn" href="http://be.linkedin.com/in/dannywillems42">
                         <img src="img/linkedin.png" />
@@ -564,7 +564,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Contact</h2>
                     <hr class="primary">
-                    <p>Vous souhaitez me contacter ?</p>
+                    <p>You have an idea, I have the skills.</p>
                 </div>
                 <div class="col-lg-offset-4 col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
