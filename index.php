@@ -107,16 +107,16 @@
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Do you need a website for your shop or to show your
+                        Do you need a website for your store or to show your
                         creations ? Do you need a blog or a website for your
                         next event ?
                     </p>
                     <p class="text-center">
-                        Front-end developer, I will develop your website and
-                        maintain it. I can develop from scratch, by using a
+                        Front-end developer, I will develop and
+                        maintain your website. I can develop from scratch, by using a
                         CMS such as WordPress or Prestashop or by using
                         frameworks such as Bootstrap, JQuery UI,
-                        MaterializeCSS, ...
+                        MaterializeCSS,...
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
@@ -138,7 +138,7 @@
                     </h3>
                     <hr>
                     <p>
-                        Mobile applications became a real need if you want to grow fastly.
+                        Mobile applications became a real need if you want to grow fast.
                     </p>
                     <p>
                         I developed some hybrid mobile applications using
@@ -185,14 +185,14 @@
                         <div class="card-content">
                             <p>
                                 The theme of this hackathon was "People with
-                                diseabilities".
+                                disabilities".
                                 <br />
                                 We developed an Android
                                 application, Metro, helping blind people to
                                 know when and where the next metro comes.
                                 <br />
-                                We used iBeacon I made with an Raspberri Pi and
-                                a bluetooth LE adapter.
+                                We used iBeacon I made with a Raspberri Pi and
+                                a Bluetooth LE adapter.
                                 <br />
                                 <b>The project is in development</b>
                             </p>
@@ -221,8 +221,8 @@
                                 Game !
                                 <br />
                                 We developed a serious game based on the
-                                immune system, called ImmuneWar. T-cell against
-                                B-cell, which will win ?
+                                immune system, called ImmuneWar. T-cells against
+                                B-cells, who's going to be the winner ?
                                 <br />
                                 During this hackathon, I learned the basics of
                                 Unity3D and the world of game development.
@@ -248,14 +248,14 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                Soon, the entire world will be full connected
+                                Soon, the entire world will be fully connected
                                 and connected devices will help us in the daily life.
 
-                                We build a Pebble and an Android applications
-                                called <em>WeCare4You</em>
+                                We built a Pebble and an Android applications
+                                called <em>WeCare4You</em>.
                                 A fall detection algorithm is implemented into
-                                the smartwatch and when the user fall, the
-                                smartwatch prevents the urgency if the user
+                                the smartwatch and when the user falls, the
+                                smartwatch calls the urgency if the user
                                 needs help.
 
                                 <b>The project is in development</b>
@@ -285,9 +285,9 @@
                                platforms have been a revolution in our daily
                                life. It changed our way to communicate.
                                <br />
-                               Theses platforms are used by millions of
-                               students, but no one offers a real experience
-                               for them.
+                               These platforms are used by millions of
+                               students, but none of them offers a real experience
+                               for their student life.
                                <br />
                                During this 24h hackathon, we tried to build a
                                new concept of social network.
@@ -313,8 +313,8 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                GPSTracker, a small device build with Arduino,
-                                registers your position every second. After
+                                GPSTracker, a small device built with Arduino,
+                                tracks your position every second. After
                                 your travel or your jogging, activate your
                                 bluetooth or connect it to your computer to
                                 retrieve data and use one of our applications
@@ -356,15 +356,15 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                I think every vim user is agree if I say vim is
+                                I think every vim user would agree if I say vim is
                                 a wonderful text editor with his key mappings
                                 and his modes.
 
                                 Vim isn't configured to develop with and we
-                                need to install loads of plugins.
+                                need to install lots of plugins.
 
-                                These things take time, and we (developers)
-                                don't want to lost time to configure our IDE.
+                                It take times, and we (developers)
+                                don't want to loose time to configure our IDE.
 
                                 So, vim-IDE is here to help you. It integrates
                                 a list of plugins which will transform vim in a
@@ -427,7 +427,7 @@
                                 keeping the same structure and the same
                                 functions. GSMath provides functions to do
                                 linear algebra (matrix), differential analysis,
-                                basic algebra, trigonometry, ...
+                                basic algebra, trigonometry,...
                             </p>
                         </div>
                         <hr></hr>
@@ -452,7 +452,7 @@
                             <p>
                                 Education is the key ! Knowledge must be free,
                                 available for everyone, everywhere and everyone
-                                must be allowed to bring something to it. We
+                                would be allowed to bring something to it. We
                                 must have courses to learn. Open Courses is a
                                 collaborative platform containing courses on
                                 several subject.
@@ -481,10 +481,10 @@
                         <hr></hr>
                         <div class="card-content">
                             <p>
-                                CustomizeCalendars let you customize your
+                                CustomizeCalendars lets you customize your
                                 online shared calendars. It offers you to
                                 choose which events you want to go to, and
-                                mofify the events name with your own name
+                                modify the events' name with your own name
                                 without changing the original shared calendars
                                 values.
                             </p>
@@ -564,7 +564,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Contact</h2>
                     <hr class="primary">
-                    <p>You have an idea, I have the skills.</p>
+                    <p>You have an idea, I have the skills. Feel free to contact me.</p>
                 </div>
                 <div class="col-lg-offset-4 col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
