@@ -290,7 +290,7 @@
                                for their student life.
                                <br />
                                During this 24h hackathon, we tried to build a
-                               new concept of social network.
+                               new concept of social network for students.
                             </p>
                         </div>
                         <hr></hr>
