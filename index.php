@@ -3,10 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer">
-    <meta name="author" content="Danny Willems">
+    <meta http-equiv="X-UA-Compatible"      content="IE=edge">
+    <meta name="viewport"                   content="width=device-width, initial-scale=1">
+    <meta name="description"                content="Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer">
+    <meta name="author"                     content="Danny Willems">
+
+    <meta property="og:url"                 content="http://danny-willems.be" />
+    <meta property="og:type"                content="website" />
+    <meta property="og:title"               content="Danny Willems - Web, Hybrid mobile and software developer" />
+    <meta property="og:description"         content="You have ideas, I have skills." />
+    <meta property="og:image"               content="http://danny-willems.be/img/personal.jpg" />
 
     <title>Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer</title>
 
