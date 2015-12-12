@@ -221,8 +221,8 @@
                                 Game !
                                 <br />
                                 We developed a serious game based on the
-                                immune system, called ImmuneWar. T-cells against
-                                B-cells, who's going to be the winner ?
+                                immune system, called ImmuneWar. Bacteries against
+                                B-cells and T-cells, who's going to be the winner ?
                                 <br />
                                 During this hackathon, I learned the basics of
                                 Unity3D and the world of game development.
