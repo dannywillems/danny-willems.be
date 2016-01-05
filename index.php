@@ -96,6 +96,9 @@
                     <a class="icon-website btn" href="http://github.com/dannywillems">
                         <img src="img/github.png" />
                     </a>
+                    <a class="icon-website btn" href="http://twitter.com/dwillems42">
+                        <img src="img/twitter.png" />
+                    </a>
                 </div>
             </div>
         </div>
