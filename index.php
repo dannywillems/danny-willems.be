@@ -67,7 +67,7 @@
                         <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://blog.danny-willems.be">Blog</a>
+                        <a class="page-scroll" href="https://blog.danny-willems.be">Blog</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -209,7 +209,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/be-hackathon-metro-1st-price/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/be-hackathon-metro-1st-price/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -240,7 +240,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/kiss-your-teacher-immunewar-3rd-price/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/kiss-your-teacher-immunewar-3rd-price/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -273,7 +273,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/sgconnected-hack-wecare4u-3rd-price/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/sgconnected-hack-wecare4u-3rd-price/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -305,7 +305,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/app-for-students-student-app/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/app-for-students-student-app/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/mic-summer-camp-gpstracker/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/mic-summer-camp-gpstracker/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -383,7 +383,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/vim-ide/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/vim-ide/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -414,7 +414,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/gslib/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/gslib/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -442,7 +442,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/gsmath">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/gsmath">More details</a>
                             </p>
                         </div>
                     </div>
@@ -473,7 +473,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/open-courses/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/open-courses/">More details</a>
                             </p>
                         </div>
                     </div>
@@ -501,7 +501,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="http://blog.danny-willems.be/en/customizecalendars/">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/customizecalendars/">More details</a>
                             </p>
                         </div>
                     </div>
