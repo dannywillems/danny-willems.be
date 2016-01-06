@@ -83,7 +83,7 @@
                 <h1>Danny Willems</h1>
                 <hr>
                 <p>
-                    Front-end web developer - Software developer - Mobile developer - AdminSys
+                    Front-end web developer - Software developer - Mobile developer - SysAdmin
                 </p>
                 <p>
                     <img class="dw-img-profile dw-img-rounded" src="img/personal.jpg" />
@@ -156,7 +156,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Admin Sys
+                        SysAdmin
                     </h3>
                     <hr>
                     <p class="text-center">
