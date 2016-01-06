@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible"      content="IE=edge">
-    <meta name="viewport"                   content="width=device-width, initial-scale=1">
-    <meta name="description"                content="Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer">
-    <meta name="author"                     content="Danny Willems">
+    <meta http-equiv="X-UA-Compatible"      content="IE=edge" />
+    <meta name="viewport"                   content="width=device-width, initial-scale=1" />
+    <meta name="description"                content="Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer" />
+    <meta name="author"                     content="Danny Willems" />
+    <meta name="keywords"                   content="Danny Willems developer web mobile hybrid software hackathon développeur" />
 
     <meta property="og:url"                 content="http://danny-willems.be" />
     <meta property="og:type"                content="website" />
@@ -86,18 +87,18 @@
                     Front-end web developer - Software developer - Mobile developer - SysAdmin
                 </p>
                 <p>
-                    <img class="dw-img-profile dw-img-rounded" src="img/personal.jpg" />
+                    <img class="dw-img-profile dw-img-rounded" alt="Danny Willems" src="img/personal.jpg" />
                 </p>
                 <a href="#services" class="btn btn-info btn-xl page-scroll">More about me</a>
                 <div>
                     <a class="icon-website btn" href="http://be.linkedin.com/in/dannywillems42">
-                        <img src="img/linkedin.png" />
+                        <img src="img/linkedin.png" alt="Danny Willems Linkedin" />
                     </a>
                     <a class="icon-website btn" href="http://github.com/dannywillems">
-                        <img src="img/github.png" />
+                        <img src="img/github.png" alt="Danny Willems Github" />
                     </a>
-                    <a class="icon-website btn" href="http://twitter.com/dwillems42">
-                        <img src="img/twitter.png" />
+                    <a class="icon-website btn"  href="http://twitter.com/dwillems42">
+                        <img src="img/twitter.png" alt="Danny Willems Twitter"/>
                     </a>
                 </div>
             </div>
@@ -184,7 +185,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/behackathon.png">
+                            <img class="" alt="Be Hackathon Metro" src="img/behackathon.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">Be-Hackathon</p>
@@ -217,7 +218,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/kissyourteacher.png">
+                            <img class="" alt="Kiss Your Teacher Hackathon ImmuneWar" src="img/kissyourteacher.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">Kiss Your Teacher</p>
@@ -248,7 +249,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/sgconnectedhack.png">
+                            <img class="" alt="SGConnectedHack Hackathon WeCare4U" src="img/sgconnectedhack.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">SG Connected Hack</p>
@@ -281,7 +282,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/appforstudents.png">
+                            <img class="" alt="App For Student hackathon" src="img/appforstudents.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">App For Students</p>
@@ -313,7 +314,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/softlab.png">
+                            <img class="" alt="Softlab hackathon GPSTracker" src="img/softlab.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">MIC Summer Camp</p>
@@ -356,7 +357,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/vim-ide.png">
+                            <img class="" alt="Vim-IDE" src="img/vim-ide.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">Vim-IDE</p>
@@ -391,7 +392,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/gslib.png">
+                            <img class="" alt="GSLib" src="img/gslib.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">GSLib</p>
@@ -422,7 +423,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/gsmath.png">
+                            <img class="" alt="GSMath" src="img/gsmath.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">GSMath</p>
@@ -450,7 +451,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/open-courses.png">
+                            <img class="" alt="Open Courses" src="img/open-courses.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">Open Courses</p>
@@ -481,7 +482,7 @@
                 <div class="col-xs-12 col-md-6 col-lg-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="" src="img/customizecalendars.png">
+                            <img class="" alt="CustomizeCalendars" src="img/customizecalendars.png">
                         </div>
                         <div class="card-header">
                             <p class="card-title">CustomizeCalendars</p>
