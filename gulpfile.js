@@ -1,6 +1,6 @@
 /*----------------------------------------------------------------------------*/
 /* Variables for files */
-var less_files = "./less/*.less";
+var less_files = ["!less/variables.less", "!less/mixins.less", "./less/*.less"];
 var css_dir = "css/";
 /*----------------------------------------------------------------------------*/
 
