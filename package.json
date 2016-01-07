@@ -1,0 +1,36 @@
+{
+  "name": "danny-willems.be",
+  "version": "1.0.0",
+  "description": "Danny Willems' portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-minify-css": "^1.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-watch": "^4.3.3",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannywillems/danny-willems.be.git"
+  },
+  "keywords": [
+    "Danny",
+    "Willems",
+    "portfolio"
+  ],
+  "author": "Danny Willems",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dannywillems/danny-willems.be/issues"
+  },
+  "homepage": "https://github.com/dannywillems/danny-willems.be#readme"
+}
