@@ -361,7 +361,7 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">Vim-IDE</p>
-                            <p class="card-subtitle"><a href="http://github.com/vim-ide/vim-ide">Hosted on Github</a></p>
+                            <p class="card-subtitle">Hosted on <a href="https://github.com/vim-ide/vim-ide">github</a></p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
@@ -384,7 +384,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="https://blog.danny-willems.be/en/vim-ide/">More details</a>
+                                 <a href="https://github.com/vim-ide/vim-ide">More details</a>
                             </p>
                         </div>
                     </div>
@@ -455,7 +455,7 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">Open Courses</p>
-                            <p class="card-subtitle">In development: <a href="http://open-courses.org">Available here</a></p>
+                            <p class="card-subtitle">In development</p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
@@ -474,7 +474,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="https://blog.danny-willems.be/en/open-courses/">More details</a>
+                                 <a href="https://open-courses.org">More details</a>
                             </p>
                         </div>
                     </div>
@@ -486,7 +486,7 @@
                         </div>
                         <div class="card-header">
                             <p class="card-title">CustomizeCalendars</p>
-                            <p class="card-subtitle">In development: <a href="http://github.com/dannywillems/customizecalendars.ionic">Hosted on Github</a></p>
+                            <p class="card-subtitle">In development</a></p>
                         </div>
                         <hr></hr>
                         <div class="card-content">
@@ -502,7 +502,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="https://blog.danny-willems.be/en/customizecalendars/">More details</a>
+                              <a href="http://github.com/dannywillems/customizecalendars.ionic">More details</a>
                             </p>
                         </div>
                     </div>
