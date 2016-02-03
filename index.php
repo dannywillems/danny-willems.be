@@ -384,7 +384,7 @@
                         <hr></hr>
                         <div class="card-footer">
                             <p>
-                                 <a href="https://github.com/vim-ide/vim-ide">More details</a>
+                                 <a href="https://blog.danny-willems.be/en/vim-ide/">More details</a>
                             </p>
                         </div>
                     </div>
