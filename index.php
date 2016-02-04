@@ -89,7 +89,7 @@
                 <p>
                     <img class="dw-img-profile dw-img-rounded" alt="Danny Willems" src="img/personal.jpg" />
                 </p>
-                <a href="#services" class="btn btn-info btn-xl page-scroll">More about me</a>
+                <a href="#services" class="btn btn-more-about-me btn-xl page-scroll">More about me</a>
                 <div>
                     <a class="icon-website btn" href="http://be.linkedin.com/in/dannywillems42">
                         <img src="img/linkedin.png" alt="Danny Willems Linkedin" />
