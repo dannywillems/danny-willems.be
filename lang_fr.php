@@ -65,16 +65,16 @@
   $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "https://blog.danny-willems.be/en/app-for-students-student-app/";
   $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'] = "Facebook, Twitter et tous les réseaux sociaux ont été une révolution dans notre vie quotienne. Ils ont changé notre manière de communiquer.
                                <br />
-                               Ces plateformes sont utilisés par des millions d'étudiants, mais aucune d'entre elles offre une réelle expérience pour la vie des étudiants.
+                               Ces plateformes sont utilisées par des millions d'étudiants, mais aucune d'entre elles offre une réelle expérience pour la vie des étudiants.
                                <br />
                                Pendant ce hackathon de 24h, nous avons imaginé un nouveau concept de réseau social pour étudiant.";
 
   $lang['DIST_HACK_SOFTLAB_PLACE'] = "GPSTracker";
   $lang['DIST_HACK_SOFTLAB_BLOG_LINK'] = "https://blog.danny-willems.be/en/mic-summer-camp-gpstracker/";
   $lang['DIST_HACK_SOFTLAB_DESC'] = "GPSTracker, un petit objet ayant une autonomie de plusieurs jours, fabriqué avec
-                                    de l'Arduino, enregistrent votre position toutes les secondes. Après votre
+                                    de l'Arduino, enregistre votre position toutes les secondes. Après votre
                                     voyage ou votre jogging, activez le bluetooth de votre téléphone ou connectez
-                                    le à votre ordinateur pour récupérer les données et utilisez une de nos
+                                    l'appareil à votre ordinateur pour récupérer les données et utilisez une de nos
                                     applications pour voir vos statistiques ou votre voyage.";
 
   /* PERSONAL PROJECTS : TEXT */
@@ -90,7 +90,7 @@
   $lang['PP_GSLIB_PLACE'] = "En développement";
   $lang['PP_GSLIB_BLOG_LINK'] = "https://blog.danny-willems.be/en/gslib/";
   $lang['PP_GSLIB_DESC'] = "Quand nous apprenons un nouveau langage, nous devons lire beaucoup de documentations pour savoir quelles fonctions basiques nous voulons utiliser comme créer une liste chainée, un arbre, un graphe, etc.
-                           GSLib est une librarie, écrite dans plusieurs langage, gardant la même structure, les même fonctions et structures de données pour vous laisser facilement changer de langage.";
+                           GSLib est une librarie, écrite dans plusieurs langages, gardant la même structure et fournissant les même fonctions et structures de données pour vous laisser facilement changer de langage.";
 
   $lang['PP_GSMATH_PLACE'] = "En développement";
   $lang['PP_GSMATH_BLOG_LINK'] = "https://blog.danny-willems.be/en/gsmath/";
@@ -105,7 +105,7 @@
 
   $lang['PP_CUSTOMIZECALENDARS_PLACE'] = "En développement";
   $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK'] = "https://github.com/dannywillems/customizecalendars.ionic";
-  $lang['PP_CUSTOMIZECALENDARS_DESC'] = "CustomizeCalendars est une application mobile qui vous laisse personnaliser vos calendriers partagés en ligne. L'application vous offre laisse choisir quels événements vous souhaitez aller et modifier le nom des événements sans changer les valeurs du calendrier original.";
+  $lang['PP_CUSTOMIZECALENDARS_DESC'] = "CustomizeCalendars est une application mobile qui vous laisse personnaliser vos calendriers partagés en ligne. L'application vous laisse choisir quels événements vous souhaitez aller et vous laisse modifier le nom des événements sans changer les valeurs du calendrier original.";
 
   /* CONTACT SECTION */
 
