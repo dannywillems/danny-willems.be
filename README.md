@@ -11,3 +11,9 @@ classes such as cards.
 
 A gulpfile is provided and you can use **npm install** to install dev
 dependancies.
+
+Version 2.0
+===========
+
+- Add multi-langage translation.
+- Cards are created with a PHP function
