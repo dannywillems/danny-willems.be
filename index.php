@@ -41,6 +41,16 @@
 </head>
 
 <body id="page-top">
+    <?php
+      switch (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))
+      {
+        case "fr":
+          include_once 'lang_fr.php';
+        default:
+          include_once 'lang_en.php';
+      }
+    ?>
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <nav class="navbar-header">
@@ -59,19 +69,19 @@
                         <a class="page-scroll" href="#about"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                      <a class="page-scroll" href="#services"><?php echo $lang['SECTION_SERVICES'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#distinctions">Distinctions & Hackathons</a>
+                      <a class="page-scroll" href="#distinctions"><?php echo $lang['SECTION_DIST_HACK'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
+                      <a class="page-scroll" href="#projects"><?php echo $lang['SECTION_PROJECTS'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="https://blog.danny-willems.be">Blog</a>
+                      <a class="page-scroll" href="https://blog.danny-willems.be"><?php echo $lang['SECTION_BLOG'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                      <a class="page-scroll" href="#contact"><?php echo $lang['SECTION_CONTACT'] ?></a>
                     </li>
                 </ul>
             </nav>
@@ -84,12 +94,12 @@
                 <h1>Danny Willems</h1>
                 <hr>
                 <p>
-                    Front-end web developer - Software developer - Mobile developer - SysAdmin
+                  <?php echo $lang['SERVICES_TITLE']?>
                 </p>
                 <p>
                     <img class="dw-img-profile dw-img-rounded" alt="Danny Willems" src="img/personal.jpg" />
                 </p>
-                <a href="#services" class="btn btn-more-about-me btn-xl page-scroll">More about me</a>
+                <a href="#services" class="btn btn-more-about-me btn-xl page-scroll"><?php echo $lang['SERVICES_MORE_ABOUT_ME'] ?></a>
                 <div>
                     <a class="icon-website btn" href="http://be.linkedin.com/in/dannywillems42">
                         <img src="img/linkedin.png" alt="Danny Willems Linkedin" />
@@ -106,68 +116,59 @@
     </header>
 
     <h2 class="text-center" id="services">
-        Services
+      <?php
+        echo $lang['SECTION_SERVICES'];
+      ?>
     </h2>
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Web developer
+                      <?php echo $lang['WEB_DEV_TITLE'] ?>
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Do you need a website for your store or to show your
-                        creations ? Do you need a blog or a website for your
-                        next event ?
+                      <?php echo $lang['WEB_DEV_FRONT_ISSUE'] ?>
                     </p>
                     <p class="text-center">
-                        Front-end developer, I will develop and
-                        maintain your website. I can develop from scratch, by using a
-                        CMS such as WordPress or Prestashop or by using
-                        frameworks such as Bootstrap, JQuery UI,
-                        MaterializeCSS,...
+                      <?php echo $lang['WEB_DEV_FRONT_SOL'] ?>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Software developer
+                      <?php echo $lang['SOFT_DEV_TITLE'] ?>
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Do you need a desktop application ?
+                      <?php echo $lang['SOFT_DEV_ISSUE'] ?>
                     </p>
                     <p class="text-center">
-                        Whether in C, Java, Python or OCaml, I will help
-                        you to develop your application.
+                      <?php echo $lang['SOFT_DEV_SOL'] ?>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Hybrid mobile developer
+                      <?php echo $lang['MOBILE_DEV_TITLE'] ?>
                     </h3>
                     <hr>
-                    <p>
-                        Mobile applications became a real need if you want to grow fast.
+                    <p class="text-center">
+                      <?php echo $lang['MOBILE_DEV_ISSUE'] ?>
                     </p>
-                    <p>
-                        I developed some hybrid mobile applications using
-                        Cordova and Ionic.
+                    <p class="text-center">
+                      <?php echo $lang['MOBILE_DEV_SOL'] ?>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        SysAdmin
+                      <?php echo $lang['SYSADMIN_TITLE'] ?>
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Each enterprise need a server to host their internal
-                        files or their projects in development.
+                      <?php echo $lang['SYSADMIN_ISSUE'] ?>
                     </p>
                     <p class="text-center">
-                        I can manage your server running on a Unix or Linux
-                        distribution, install and maintain your hosting
-                        solutions.
+                      <?php echo $lang['SYSADMIN_SOL'] ?>
                     </p>
                 </div>
             </div>
