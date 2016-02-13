@@ -1,21 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<?php
+  switch (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))
+  {
+    case "fr":
+      echo "<html lang='fr'>";
+      include_once 'lang_fr.php';
+      break;
+    default:
+      echo "<html lang='en'>";
+      include_once 'lang_en.php';
+      break;
+  }
+
+
+  function new_card($img_alt, $img_src, $card_title, $card_subtitle, $card_content, $card_blog_link)
+  {
+    echo "
+    <div class='col-xs-12 col-md-6 col-lg-4'>
+        <div class='card'>
+            <div class='card-image'>
+                <img class='' alt='" . $img_alt . "' src='" . $img_src . "'>
+            </div>
+            <div class='card-header'>
+                <p class='card-title'>" . $card_title . "</p>
+                <p class='card-subtitle'>" . $card_subtitle . "</p>
+            </div>
+            <hr></hr>
+            <div class='card-content'>
+              <p>" . $card_content . "</p>
+            </div>
+            <hr></hr>
+            <div class='card-footer'>
+                <p>
+                  <a href='" . $card_blog_link . "'>" . $GLOBALS['lang']['CARD_MORE_DETAILS'] . "</a>
+                </p>
+            </div>
+        </div>
+    </div>";
+  }
+?>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"      content="IE=edge" />
     <meta name="viewport"                   content="width=device-width, initial-scale=1" />
-    <meta name="description"                content="Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer" />
+    <meta name="description"                content="<?php echo $lang['TITLE'] ?>" />
     <meta name="author"                     content="Danny Willems" />
     <meta name="keywords"                   content="Danny Willems developer web mobile hybrid software hackathon développeur" />
 
     <meta property="og:url"                 content="http://danny-willems.be" />
     <meta property="og:type"                content="website" />
-    <meta property="og:title"               content="Danny Willems - Web, Hybrid mobile and software developer" />
-    <meta property="og:description"         content="You have ideas, I have skills." />
+    <meta property="og:title"               content="<?php echo $lang['TITLE_SHORT'] ?>" />
+    <meta property="og:description"         content="<?php echo $lang['DESCRIPTION'] ?>" />
     <meta property="og:image"               content="http://danny-willems.be/img/personal.jpg" />
 
-    <title>Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer</title>
+    <title><?php echo $lang['TITLE'] ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -59,19 +98,19 @@
                         <a class="page-scroll" href="#about"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                      <a class="page-scroll" href="#services"><?php echo $lang['SECTION_SERVICES'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#distinctions">Distinctions & Hackathons</a>
+                      <a class="page-scroll" href="#distinctions"><?php echo $lang['SECTION_DIST_HACK'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
+                      <a class="page-scroll" href="#projects"><?php echo $lang['SECTION_PROJECTS'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="https://blog.danny-willems.be">Blog</a>
+                      <a class="page-scroll" href="https://blog.danny-willems.be"><?php echo $lang['SECTION_BLOG'] ?></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                      <a class="page-scroll" href="#contact"><?php echo $lang['SECTION_CONTACT'] ?></a>
                     </li>
                 </ul>
             </nav>
@@ -84,12 +123,12 @@
                 <h1>Danny Willems</h1>
                 <hr>
                 <p>
-                    Front-end web developer - Software developer - Mobile developer - SysAdmin
+                  <?php echo $lang['SERVICES_TITLE']?>
                 </p>
                 <p>
                     <img class="dw-img-profile dw-img-rounded" alt="Danny Willems" src="img/personal.jpg" />
                 </p>
-                <a href="#services" class="btn btn-info btn-xl page-scroll">More about me</a>
+                <a href="#services" class="btn btn-more-about-me btn-xl page-scroll"><?php echo $lang['SERVICES_MORE_ABOUT_ME'] ?></a>
                 <div>
                     <a class="icon-website btn" href="http://be.linkedin.com/in/dannywillems42">
                         <img src="img/linkedin.png" alt="Danny Willems Linkedin" />
@@ -106,68 +145,59 @@
     </header>
 
     <h2 class="text-center" id="services">
-        Services
+      <?php
+        echo $lang['SECTION_SERVICES'];
+      ?>
     </h2>
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Web developer
+                      <?php echo $lang['WEB_DEV_TITLE'] ?>
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Do you need a website for your store or to show your
-                        creations ? Do you need a blog or a website for your
-                        next event ?
+                      <?php echo $lang['WEB_DEV_FRONT_ISSUE'] ?>
                     </p>
                     <p class="text-center">
-                        Front-end developer, I will develop and
-                        maintain your website. I can develop from scratch, by using a
-                        CMS such as WordPress or Prestashop or by using
-                        frameworks such as Bootstrap, JQuery UI,
-                        MaterializeCSS,...
+                      <?php echo $lang['WEB_DEV_FRONT_SOL'] ?>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Software developer
+                      <?php echo $lang['SOFT_DEV_TITLE'] ?>
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Do you need a desktop application ?
+                      <?php echo $lang['SOFT_DEV_ISSUE'] ?>
                     </p>
                     <p class="text-center">
-                        Whether in C, Java, Python or OCaml, I will help
-                        you to develop your application.
+                      <?php echo $lang['SOFT_DEV_SOL'] ?>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        Hybrid mobile developer
+                      <?php echo $lang['MOBILE_DEV_TITLE'] ?>
                     </h3>
                     <hr>
-                    <p>
-                        Mobile applications became a real need if you want to grow fast.
+                    <p class="text-center">
+                      <?php echo $lang['MOBILE_DEV_ISSUE'] ?>
                     </p>
-                    <p>
-                        I developed some hybrid mobile applications using
-                        Cordova and Ionic.
+                    <p class="text-center">
+                      <?php echo $lang['MOBILE_DEV_SOL'] ?>
                     </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-12">
                     <h3 class="text-center">
-                        SysAdmin
+                      <?php echo $lang['SYSADMIN_TITLE'] ?>
                     </h3>
                     <hr>
                     <p class="text-center">
-                        Each enterprise need a server to host their internal
-                        files or their projects in development.
+                      <?php echo $lang['SYSADMIN_ISSUE'] ?>
                     </p>
                     <p class="text-center">
-                        I can manage your server running on a Unix or Linux
-                        distribution, install and maintain your hosting
-                        solutions.
+                      <?php echo $lang['SYSADMIN_SOL'] ?>
                     </p>
                 </div>
             </div>
@@ -177,171 +207,18 @@
     <hr class="section-separation">
 
     <h2 id="distinctions" class="text-center">
-         Distinctions &amp; Hackathons
+      <?php echo $lang['DIST_HACK_TITLE'] ?>
     </h2>
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="Be Hackathon Metro" src="img/behackathon.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">Be-Hackathon</p>
-                            <p class="card-subtitle">1st Price : Metro</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                The theme of this hackathon was "People with
-                                disabilities".
-                                <br />
-                                We developed an Android
-                                application, Metro, helping blind people to
-                                know when and where the next metro comes.
-                                <br />
-                                We used iBeacon I made with a Raspberri Pi and
-                                a Bluetooth LE adapter.
-                                <br />
-                                <b>The project is in development</b>
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/be-hackathon-metro-1st-price/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="Kiss Your Teacher Hackathon ImmuneWar" src="img/kissyourteacher.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">Kiss Your Teacher</p>
-                            <p class="card-subtitle">3rd Price : ImmuneWar</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                How to learn something easily ? With Serious
-                                Game !
-                                <br />
-                                We developed a serious game based on the
-                                immune system, called ImmuneWar. Bacteries against
-                                B-cells and T-cells, who's going to be the winner ?
-                                <br />
-                                During this hackathon, I learned the basics of
-                                Unity3D and the world of game development.
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/kiss-your-teacher-immunewar-3rd-price/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="SGConnectedHack Hackathon WeCare4U" src="img/sgconnectedhack.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">SG Connected Hack</p>
-                            <p class="card-subtitle">3rd Price : WeCare4You</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                Soon, the entire world will be fully connected
-                                and connected devices will help us in the daily life.
-
-                                We built a Pebble and an Android applications
-                                called <em>WeCare4You</em>.
-                                A fall detection algorithm is implemented into
-                                the smartwatch and when the user falls, the
-                                smartwatch calls the urgency if the user
-                                needs help.
-
-                                <b>The project is in development</b>
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/sgconnected-hack-wecare4u-3rd-price/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="App For Student hackathon" src="img/appforstudents.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">App For Students</p>
-                            <p class="card-subtitle">Student App</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                               Facebook, Twitter and all social network
-                               platforms have been a revolution in our daily
-                               life. It changed our way to communicate.
-                               <br />
-                               These platforms are used by millions of
-                               students, but none of them offers a real experience
-                               for their student life.
-                               <br />
-                               During this 24h hackathon, we tried to build a
-                               new concept of social network for students.
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/app-for-students-student-app/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="Softlab hackathon GPSTracker" src="img/softlab.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">MIC Summer Camp</p>
-                            <p class="card-subtitle">GPSTracker - In development</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                GPSTracker, a small device built with Arduino,
-                                tracks your position every second. After
-                                your travel or your jogging, activate your
-                                bluetooth or connect it to your computer to
-                                retrieve data and use one of our applications
-                                to see your statistics or your travel.
-
-                                You can use the device during several days
-                                without recharging it.
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/mic-summer-camp-gpstracker/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              <?php
+                new_card("Be Hackathon Metro", "img/behackathon.png", "Be-hackathon", $lang['DIST_HACK_BE_HACKATHON_PLACE'], $lang['DIST_HACK_BE_HACKATHON_DESC'], $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK']);
+                new_card("Kiss Your Teacher Hackathon ImmuneWar", "img/kissyourteacher.png", "Kiss Your Teacher", $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'], $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'], $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK']);
+                new_card("SGConnectedHack Hackathon WeCare4U", "img/sgconnectedhack.png", "SG Connected Hack", $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'], $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'], $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK']);
+                new_card("App For Students Hackathon", "img/appforstudents.png", "App For Students", $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'], $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'], $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK']);
+                new_card("Softlab Hackathon GPSTracker", "img/softlab.png", "MIC Summer Camp", $lang['DIST_HACK_SOFTLAB_PLACE'], $lang['DIST_HACK_SOFTLAB_DESC'], $lang['DIST_HACK_SOFTLAB_BLOG_LINK']);
+              ?>
             </div>
         </div>
     </section>
@@ -349,232 +226,33 @@
     <hr class="section-separation">
 
     <h2 id="projects" class="text-center">
-        Personal projects
+      <?php echo $lang['PP_TITLE'] ?>
     </h2>
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="Vim-IDE" src="img/vim-ide.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">Vim-IDE</p>
-                            <p class="card-subtitle"><a href="http://github.com/vim-ide/vim-ide">Hosted on Github</a></p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                I think every vim user would agree if I say vim is
-                                a wonderful text editor with his key mappings
-                                and his modes.
-
-                                Vim isn't configured to develop with and we
-                                need to install lots of plugins.
-
-                                It take times, and we (developers)
-                                don't want to loose time to configure our IDE.
-
-                                So, vim-IDE is here to help you. It integrates
-                                a list of plugins which will transform vim in a
-                                full IDE, and it's easy to install.
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/vim-ide/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="GSLib" src="img/gslib.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">GSLib</p>
-                            <p class="card-subtitle">In development</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                               When we learn a new programming language, we
-                               must read a lot of documentation to know which
-                               basic functions do what we want such as create a
-                               linked list, a tree, a graph, ...
-                               GSLib is a library, written in multiple
-                               languages, keeping the same structure and
-                               providing the same functions and data structures
-                               for all languages, which let you easily switch to
-                               a new language.
-                           </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/gslib/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="GSMath" src="img/gsmath.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">GSMath</p>
-                            <p class="card-subtitle">In development</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                In the same idea than GSLib, GSMath is a
-                                library, available in multiple languages,
-                                keeping the same structure and the same
-                                functions. GSMath provides functions to do
-                                linear algebra (matrix), differential analysis,
-                                basic algebra, trigonometry,...
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/gsmath">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="Open Courses" src="img/open-courses.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">Open Courses</p>
-                            <p class="card-subtitle">In development: <a href="http://open-courses.org">Available here</a></p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                Education is the key ! Knowledge must be free,
-                                available for everyone, everywhere and everyone
-                                would be allowed to bring something to it. We
-                                must have courses to learn. Open Courses is a
-                                collaborative platform containing courses on
-                                several subject.
-
-                                You have something to learn to someone: be
-                                collaborative, create an open course !
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/open-courses/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" alt="CustomizeCalendars" src="img/customizecalendars.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">CustomizeCalendars</p>
-                            <p class="card-subtitle">In development: <a href="http://github.com/dannywillems/customizecalendars.ionic">Hosted on Github</a></p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                                CustomizeCalendars lets you customize your
-                                online shared calendars. It offers you to
-                                choose which events you want to go to, and
-                                modify the events' name with your own name
-                                without changing the original shared calendars
-                                values.
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="https://blog.danny-willems.be/en/customizecalendars/">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+              <?php
+                new_card("Vim-IDE", "img/vim-ide.png", "Vim-IDE", $lang['PP_VIM_IDE_PLACE'], $lang['PP_VIM_IDE_DESC'], $lang['PP_VIM_IDE_BLOG_LINK']);
+                new_card("GSLib", "img/gslib.png", "GSLib", $lang['PP_GSLIB_PLACE'], $lang['PP_GSLIB_DESC'], $lang['PP_GSLIB_BLOG_LINK']);
+                new_card("GSMath", "img/gsmath.png", "GSMath", $lang['PP_GSMATH_PLACE'], $lang['PP_GSMATH_DESC'], $lang['PP_GSMATH_BLOG_LINK']);
+                new_card("Open Courses", "img/open-courses.png", "Open Courses", $lang['PP_OPEN_COURSES_PLACE'], $lang['PP_OPEN_COURSES_DESC'], $lang['PP_OPEN_COURSES_BLOG_LINK']);
+                new_card("CustomizeCalendars", "img/customizecalendars.png", "CustomizeCalendars", $lang['PP_CUSTOMIZECALENDARS_PLACE'], $lang['PP_CUSTOMIZECALENDARS_DESC'], $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK']);
+              ?>
             </div>
         </div>
     </section>
 
-    <!--
     <hr class="section-separation">
 
-    <h2 class="text-center">
-        They Trust Me
+    <h2 class="text-center" id="contact">
+      <?php echo $lang['CONTACT_TITLE'] ?>
     </h2>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" src="img/behackathon.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">Craie à Bois</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="#">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="" src="img/kissyourteacher.png">
-                        </div>
-                        <div class="card-header">
-                            <p class="card-title">Le Coin Quotidien</p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-content">
-                            <p>
-                            </p>
-                        </div>
-                        <hr></hr>
-                        <div class="card-footer">
-                            <p>
-                                 <a href="#">More details</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact</h2>
-                    <hr class="primary">
-                    <p>You have an idea, I have the skills. Feel free to contact me.</p>
+                  <h2 class="section-heading"></h2>
+                  <p class="contact-text"><?php echo $lang['CONTACT_SLOGAN'] ?> <?php echo $lang['CONTACT_TEXT'] ?></p>
                 </div>
                 <div class="col-lg-offset-4 col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
