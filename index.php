@@ -15,7 +15,7 @@
     <meta property="og:description"         content="You have ideas, I have skills." />
     <meta property="og:image"               content="http://danny-willems.be/img/personal.jpg" />
 
-    <title>Danny Willems - Web developer, AdminSys, Hybrid mobile developer, Software developer</title>
+    <title><?php echo $lang['TITLE'] ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -46,8 +46,10 @@
       {
         case "fr":
           include_once 'lang_fr.php';
+          break;
         default:
           include_once 'lang_en.php';
+          break;
       }
     ?>
 
