@@ -1,5 +1,10 @@
 <?php
+
   $lang = array();
+
+  $lang['TITLE'] = "Danny Willems - Web développeur, AdminSys, Développeur application mobile hybride, Software développeur";
+  $lang['TITLE_SHORT'] = "Danny Willems - Web, mobile hybride et software développeur";
+  $lang['DESCRIPTION'] = "Vous avez une idée, j'ai les connaissances.";
 
   $lang['SECTION_SERVICES'] = 'Services';
   $lang['SECTION_DIST_HACK'] = 'Distinctions & Hackathons';
@@ -7,6 +12,7 @@
   $lang['SECTION_BLOG'] = 'Blog';
   $lang['SECTION_CONTACT'] = 'Contact';
 
+  /* SERVICES TEXT */
   $lang['SERVICES_TITLE'] = 'Front-end web développeur - Software développeur - Développeur Mobile - Administrateur Système';
   $lang['SERVICES_MORE_ABOUT_ME'] = 'A propos de moi';
 
@@ -22,7 +28,89 @@
   $lang['MOBILE_DEV_ISSUE'] = "Les applications mobiles sont devenues un énorme besoin si vous voulez grandir vite.";
   $lang['MOBILE_DEV_SOL'] = "J'ai développé plusieurs applications mobiles hybrides en utilisant Cordova et Ionic.";
 
-  $lang['SYSADMIN_TITLE'] = "Administrateur Système";
-  $lang['SYSADMIN_ISSUE'] = "Chaque entreprise a besoin d'un serveur pour héberger leur site, leurs fichiers internes ou leurs projets en développements.";
-  $lang['SYSADMIN_SOL'] = "Je peux gérer votre serveur tournant sous une distribution Linux ou Unix, installer et maintenant vos solutions d'hébergements.";
+  $lang['SYSADMIN_TITLE'] = "AdminSys";
+  $lang['SYSADMIN_ISSUE'] = "Chaque entreprise a besoin d'un serveur pour héberger leur site, leurs fichiers internes ou leurs projets en développement.";
+  $lang['SYSADMIN_SOL'] = "Je peux gérer votre serveur tournant sous une distribution Linux ou Unix, installer et maintenir vos solutions d'hébergements.";
+
+  /* CARD TEXT */
+  $lang['CARD_MORE_DETAILS'] = "En savoir plus";
+
+  /* DISTINCTIONS AND HACKATHON TEXT */
+  $lang['DIST_HACK_TITLE'] = "Distinctions &amp; Hackathons";
+
+  $lang['DIST_HACK_BE_HACKATHON_PLACE'] = "1er Prix : Metro";
+  $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'] = "https://blog.danny-willems.be/en/be-hackathon-metro-1st-price/";
+  $lang['DIST_HACK_BE_HACKATHON_DESC'] = "Le thème de ce hackathon était 'les personnes handicapées'.
+                                <br />
+                                Nous avons développé une application Android, Metro, aidant les personnes aveugles à savoir quels sont les prochains métros qui arrivent.
+                                <br />
+                                Nous avons utilisé des iBeacons que j'ai réalisé à l'aide un Raspberry Pi et un adaptateur Bluetooth LE.";
+
+  $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'] = "3ième Prix: ImmuneWar";
+  $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'] = "https://blog.danny-willems.be/en/kiss-your-teacher-immunewar-3rd-price/";
+  $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'] = "Comment apprendre quelque chose facilement ? Avec des Serious Game !
+                                <br />
+                                Nous avons développé un jeu basé sur le système immunitaire, appelé ImmuneWar. Les bactéries contres les cellules B et T, qui seront les vainqueurs ?
+                                <br />
+                                Durant ce hackathon, j'ai appris les bases d'Unity3D et le monde du développement de jeu vidéo.";
+
+  $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'] = "3ième Prix: WeCare4U";
+  $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'] = "https://blog.danny-willems.be/en/sgconnected-hack-wecare4u-3rd-price/";
+  $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'] = "Bientôt, le monde entier sera totalement connecté et les objets connectés nous aideront dans notre vie quotidienne.
+                                Nous avons développé une application Android et Pebble, appelés <em>WeCare4U</em>.
+                                Un algorithme de détection de chute est implémenté dans la montre connectée et quand l'utilisateur tombe, la montre appelle les urgence.
+                                <b>Le projet est encore en développement.</b>";
+
+  $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'] = "Student App";
+  $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "https://blog.danny-willems.be/en/app-for-students-student-app/";
+  $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'] = "Facebook, Twitter et tous les réseaux sociaux ont été une révolution dans notre vie quotienne. Ils ont changé notre manière de communiquer.
+                               <br />
+                               Ces plateformes sont utilisés par des millions d'étudiants, mais aucune d'entre elles offre une réelle expérience pour la vie des étudiants.
+                               <br />
+                               Pendant ce hackathon de 24h, nous avons imaginé un nouveau concept de réseau social pour étudiant.";
+
+  $lang['DIST_HACK_SOFTLAB_PLACE'] = "GPSTracker";
+  $lang['DIST_HACK_SOFTLAB_BLOG_LINK'] = "https://blog.danny-willems.be/en/mic-summer-camp-gpstracker/";
+  $lang['DIST_HACK_SOFTLAB_DESC'] = "GPSTracker, un petit objet ayant une autonomie de plusieurs jours, fabriqué avec
+                                    de l'Arduino, enregistrent votre position toutes les secondes. Après votre
+                                    voyage ou votre jogging, activez le bluetooth de votre téléphone ou connectez
+                                    le à votre ordinateur pour récupérer les données et utilisez une de nos
+                                    applications pour voir vos statistiques ou votre voyage.";
+
+  /* PERSONAL PROJECTS : TEXT */
+
+  $lang['PP_TITLE'] = "Projets personnels";
+
+  $lang['PP_VIM_IDE_PLACE'] = "Hébergé sur <a href='https://github.com/vim-ide/vim-ide'>github</a>";
+  $lang['PP_VIM_IDE_BLOG_LINK'] = "https://blog.danny-willems.be/en/vim-ide/";
+  $lang['PP_VIM_IDE_DESC'] = "Je pense que tout utilisateur de vim sera d'accord avec moi si je dis que c'est un fabuleux éditeur de texte.
+                              Nous devons installer beaucoup de plugins pour développer: ça prend du temps, et nous (développeurs) ne voulons pas perdre de temps à configurer notre IDE.
+                              Vim-IDE est là pour vous aider: il intègre une liste de plugins qui transforme vim en un IDE complet, et il est très facile à installer !";
+
+  $lang['PP_GSLIB_PLACE'] = "En développement";
+  $lang['PP_GSLIB_BLOG_LINK'] = "https://blog.danny-willems.be/en/gslib/";
+  $lang['PP_GSLIB_DESC'] = "Quand nous apprenons un nouveau langage, nous devons lire beaucoup de documentations pour savoir quelles fonctions basiques nous voulons utiliser comme créer une liste chainée, un arbre, un graphe, etc.
+                           GSLib est une librarie, écrite dans plusieurs langage, gardant la même structure, les même fonctions et structures de données pour vous laisser facilement changer de langage.";
+
+  $lang['PP_GSMATH_PLACE'] = "En développement";
+  $lang['PP_GSMATH_BLOG_LINK'] = "https://blog.danny-willems.be/en/gsmath/";
+  $lang['PP_GSMATH_DESC'] = "Dans la même idée que GSLib, GSMath est une librairie, disponible dans plusieurs langages, gardant la même structure et fournissant les mêmes functions.
+                            GSMath fournit des fonctions pour réaliser de l'algèbre linéaire (matrice), de l'analyse différentielle (EDO), algèbre basique, trigonométrie, ...";
+
+  $lang['PP_OPEN_COURSES_PLACE'] = "En développement";
+  $lang['PP_OPEN_COURSES_BLOG_LINK'] = "https://open-courses.org";
+  $lang['PP_OPEN_COURSES_DESC'] = "L'éducation est très importante ! Le savoir doit être libre, accessible pour tout le monde, partout et chacun doit être autorisé à apporter quelque chose.
+                                  Nous devons avoir des cours pour apprendre. Open Courses est une plateforme collaborative contenant des cours sur différents sujets.
+                                  Vous avez quelque chose à apprendre à quelqu'un: soyez collaboratifs, créez un cours libre !";
+
+  $lang['PP_CUSTOMIZECALENDARS_PLACE'] = "En développement";
+  $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK'] = "https://github.com/dannywillems/customizecalendars.ionic";
+  $lang['PP_CUSTOMIZECALENDARS_DESC'] = "CustomizeCalendars est une application mobile qui vous laisse personnaliser vos calendriers partagés en ligne. L'application vous offre laisse choisir quels événements vous souhaitez aller et modifier le nom des événements sans changer les valeurs du calendrier original.";
+
+  /* CONTACT SECTION */
+
+  $lang['CONTACT_TITLE'] = "Contact";
+
+  $lang['CONTACT_SLOGAN'] = "Vous avez une idée, j'ai les compétences.";
+  $lang['CONTACT_TEXT'] = "Contactez moi !";
 ?>
