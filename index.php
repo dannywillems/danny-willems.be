@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <?php
-  switch (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2))
+  $list_lang = array();
+  $list_lang['fr'] = "Français";
+  $list_lang['en'] = "English";
+
+  session_start();
+
+  if (isSet($_GET['lang']))
+  {
+    $save_lang = $_GET['lang'];
+    $_SESSION['save_lang'] = $save_lang;
+    setcookie('save_lang', $save_lang, time() + (3600 * 24 * 30));
+  }
+  else if (isSet($_COOKIE['save_lang']))
+    $save_lang = $_COOKIE['save_lang'];
+  else
+    $save_lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+  switch ($save_lang)
   {
     case "fr":
       echo "<html lang='fr'>";
@@ -11,7 +27,6 @@
       include_once 'lang_en.php';
       break;
   }
-
 
   function new_card($img_alt, $img_src, $card_title, $card_subtitle, $card_content, $card_blog_link)
   {
@@ -60,8 +75,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -111,6 +126,22 @@
                     </li>
                     <li>
                       <a class="page-scroll" href="#contact"><?php echo $lang['SECTION_CONTACT'] ?></a>
+                    </li>
+                    <li>
+                      <div class="dw-multi-language">
+                        <button class="page-scroll btn btn-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <?php echo $list_lang[$save_lang] ?> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <?php
+                            foreach ($list_lang as $key => $value)
+                            {
+                              if ($key != $save_lang)
+                                echo "<li><a href='http://local.danny-willems.be/?lang=" . $key . "'>" . $value . "</a></li>";
+                            }
+                          ?>
+                        </ul>
+                      </div>
                     </li>
                 </ul>
             </nav>
