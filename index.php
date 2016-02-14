@@ -137,7 +137,7 @@
                             foreach ($list_lang as $key => $value)
                             {
                               if ($key != $save_lang)
-                                echo "<li><a href='http://local.danny-willems.be/?lang=" . $key . "'>" . $value . "</a></li>";
+                                echo "<li><a href='https://danny-willems.be/?lang=" . $key . "'>" . $value . "</a></li>";
                             }
                           ?>
                         </ul>
