@@ -12,6 +12,12 @@ classes such as cards.
 A gulpfile is provided and you can use **npm install** to install dev
 dependancies.
 
+Version 2.1
+===========
+
+- Add a dropdown menu to allow user to change the language. Based on a GET
+  parameter, save it in a cookie for 30 days.
+
 Version 2.0
 ===========
 
