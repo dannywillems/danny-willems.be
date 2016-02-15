@@ -124,17 +124,17 @@
 
   $lang['SKILLS_TITLE'] = "Compétences";
   $lang['SKILLS_PROGRAMMING'] = 'Programmation';
-  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java, Python, C, OCaml';
+  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java (+ Swing), Python, C, OCaml';
   $lang['SKILLS_OS'] = 'OS';
   $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
   $lang['SKILLS_WEB'] = 'Web';
-  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS)';
+  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS), PHP';
   $lang['SKILLS_SERVER'] = 'Serveur';
-  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOCean, Docker' ;
+  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOCean, Docker, NodeJS basique' ;
   $lang['SKILLS_DB'] = 'Mobile<br />Objets connectés<br />Électronique';
   $lang['SKILLS_DB_DESC'] = 'Cordova, Ionic<br />Pebble<br />Raspberry Pi, Arduino';
   $lang['SKILLS_OTHER'] = 'Autres';
-  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTex, UML, Vim';
+  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTex, UML, Vim, Makefile, Gulp, Grunt';
 
   /* CONTACT SECTION */
 
