@@ -9,6 +9,8 @@
   $lang['SECTION_SERVICES'] = 'Services';
   $lang['SECTION_DIST_HACK'] = 'Distinctions & Hackathons';
   $lang['SECTION_PROJECTS'] = 'Projets';
+  $lang['SECTION_EDUCATION'] = 'Éducation';
+  $lang['SECTION_SKILLS'] = 'Compétences';
   $lang['SECTION_BLOG'] = 'Blog';
   $lang['SECTION_CONTACT'] = 'Contact';
 
@@ -106,6 +108,33 @@
   $lang['PP_CUSTOMIZECALENDARS_PLACE'] = "En développement";
   $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK'] = "https://github.com/dannywillems/customizecalendars.ionic";
   $lang['PP_CUSTOMIZECALENDARS_DESC'] = "CustomizeCalendars est une application mobile qui vous laisse personnaliser vos calendriers partagés en ligne. L'application vous laisse choisir quels événements vous souhaitez aller et vous laisse modifier le nom des événements sans changer les valeurs du calendrier original.";
+
+  /* EDUCATION SECTION */
+
+  $lang['EDUCATION_TITLE'] = "Éducation";
+  $lang['EDUCATION_UMONS_SECTION'] = "Master en mathématiques";
+  $lang['EDUCATION_UMONS_DESCRIPTION'] = "Orientation physique (2012-2015), informatique (2015-2017) et entrepreneuriat (2015-2016).<br />Cursus centré sur la réflexion, les projets et les présentations. <br />Enseignement dans divers domaines tel que la relativité restreinte, la mécanique quantique, l'intelligence artificielle, la bio informatique, la logique mathématique et l'analyse numérique (voir <a href='https://www.linkedin.com/in/dannywillems42'>Linkedin</a>)";
+  $lang['EDUCATION_UMONS_BLOG_LINK'] = "https://www.umons.ac.be";
+
+  $lang['EDUCATION_42_SECTION'] = "Formation en informatique";
+  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de cours mais centré sur les projets.<br />Le C est obligatoire dès le premier jour et une grande majorité des projets sont à réaliser dans ce langage.<br />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml, la 3D et bien d'autres domaines sont enseignés à travers les projets.";
+  $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.fr/notre-pedagogie-programme/";
+
+  /* SKILLS SECTION */
+
+  $lang['SKILLS_TITLE'] = "Compétences";
+  $lang['SKILLS_PROGRAMMING'] = 'Programmation';
+  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java, Python, C, OCaml';
+  $lang['SKILLS_OS'] = 'OS';
+  $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
+  $lang['SKILLS_WEB'] = 'Web';
+  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS)';
+  $lang['SKILLS_SERVER'] = 'Serveur';
+  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOCean, Docker' ;
+  $lang['SKILLS_DB'] = 'Mobile<br />Objets connectés<br />Électronique';
+  $lang['SKILLS_DB_DESC'] = 'Cordova, Ionic<br />Pebble<br />Raspberry Pi, Arduino';
+  $lang['SKILLS_OTHER'] = 'Autres';
+  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTex, UML, Vim';
 
   /* CONTACT SECTION */
 
