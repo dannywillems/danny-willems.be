@@ -347,6 +347,8 @@
       </div>
     </section>
 
+    <hr class="section-separation">
+
     <h2 class="text-center" id="contact">
       <?php echo $lang['CONTACT_TITLE'] ?>
     </h2>
