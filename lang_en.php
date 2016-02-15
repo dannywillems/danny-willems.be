@@ -8,6 +8,8 @@
   $lang['SECTION_SERVICES'] = 'Services';
   $lang['SECTION_DIST_HACK'] = 'Distinctions & Hackathons';
   $lang['SECTION_PROJECTS'] = 'Projects';
+  $lang['SECTION_EDUCATION'] = 'Education';
+  $lang['SECTION_SKILLS'] = 'Skills';
   $lang['SECTION_BLOG'] = 'Blog';
   $lang['SECTION_CONTACT'] = 'Contact';
 
@@ -160,6 +162,33 @@
                                 modify the events' name with your own name
                                 without changing the original shared calendars
                                 values.";
+
+  /* EDUCATION SECTION */
+
+  $lang['EDUCATION_TITLE'] = "Education";
+  $lang['EDUCATION_UMONS_SECTION'] = "Master in mathematics";
+  $lang['EDUCATION_UMONS_DESCRIPTION'] = "Minor in physics (2012-2015), computer sciences (2015-2017) and entrepreneurship (2015-2016).<br />Focused on thinking, projects and giving courses.<br />Main courses: mathematical logic, model theory, numerical analysis, local field, algebra, data structures, artificial intelligence, quantum physics, special relativity, electromagnetism and bioinformatics (see <a href='https://www.linkedin.com/in/dannywillems42'>Linkedin</a>).";
+  $lang['EDUCATION_UMONS_BLOG_LINK'] = "https://portail.umons.ac.be/en2/pages/default.aspx";
+
+  $lang['EDUCATION_42_SECTION'] = "Computer Science";
+  $lang['EDUCATION_42_DESCRIPTION'] = "42 is focused on peer-to-peer pedagogy and self-learning: no courses, no teachers, no schedule but only projects. C is the first learned programming language and most of projects must be done in C.<br />PHP, SQL (+ security vulnerabilities), computer security, C++, OCaml, 3D and lots of others computer fields are learned through projects. See <a href='https://github.com/42dannywillems'>github</a> for my projects.";
+  $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.fr/notre-pedagogie-programme/";
+
+  /* SKILLS SECTION */
+
+  $lang['SKILLS_TITLE'] = "Skills";
+  $lang['SKILLS_PROGRAMMING'] = 'Programming';
+  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java, Python, C, OCaml';
+  $lang['SKILLS_OS'] = 'OS';
+  $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
+  $lang['SKILLS_WEB'] = 'Web';
+  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS)';
+  $lang['SKILLS_SERVER'] = 'Server';
+  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOcean, Docker' ;
+  $lang['SKILLS_DB'] = 'Mobile<br />Connected devices<br />Electronic';
+  $lang['SKILLS_DB_DESC'] = 'Cordova, Ionic<br />Pebble<br />Raspberry Pi, Arduino';
+  $lang['SKILLS_OTHER'] = 'Other';
+  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTex, UML, Vim';
 
   /* CONTACT SECTION */
 

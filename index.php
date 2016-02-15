@@ -28,10 +28,10 @@
       break;
   }
 
-  function new_card($img_alt, $img_src, $card_title, $card_subtitle, $card_content, $card_blog_link)
+  function new_card($img_alt, $img_src, $card_title, $card_subtitle, $card_content, $card_blog_link, $css_supp)
   {
     echo "
-    <div class='col-xs-12 col-md-6 col-lg-4'>
+    <div class='col-xs-12 col-md-6 col-lg-4 " . $css_supp . "'>
         <div class='card'>
             <div class='card-image'>
                 <img class='' alt='" . $img_alt . "' src='" . $img_src . "'>
@@ -122,10 +122,16 @@
                       <a class="page-scroll" href="#projects"><?php echo $lang['SECTION_PROJECTS'] ?></a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="https://blog.danny-willems.be"><?php echo $lang['SECTION_BLOG'] ?></a>
+                      <a class="page-scroll" href="#education"><?php echo $lang['SECTION_EDUCATION'] ?></a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#skills"><?php echo $lang['SECTION_SKILLS'] ?></a>
                     </li>
                     <li>
                       <a class="page-scroll" href="#contact"><?php echo $lang['SECTION_CONTACT'] ?></a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="https://blog.danny-willems.be"><?php echo $lang['SECTION_BLOG'] ?></a>
                     </li>
                     <li>
                       <div class="dw-multi-language">
@@ -244,11 +250,11 @@
         <div class="container">
             <div class="row">
               <?php
-                new_card("Be Hackathon Metro", "img/behackathon.png", "Be-hackathon", $lang['DIST_HACK_BE_HACKATHON_PLACE'], $lang['DIST_HACK_BE_HACKATHON_DESC'], $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK']);
-                new_card("Kiss Your Teacher Hackathon ImmuneWar", "img/kissyourteacher.png", "Kiss Your Teacher", $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'], $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'], $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK']);
-                new_card("SGConnectedHack Hackathon WeCare4U", "img/sgconnectedhack.png", "SG Connected Hack", $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'], $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'], $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK']);
-                new_card("App For Students Hackathon", "img/appforstudents.png", "App For Students", $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'], $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'], $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK']);
-                new_card("Softlab Hackathon GPSTracker", "img/softlab.png", "MIC Summer Camp", $lang['DIST_HACK_SOFTLAB_PLACE'], $lang['DIST_HACK_SOFTLAB_DESC'], $lang['DIST_HACK_SOFTLAB_BLOG_LINK']);
+                new_card("Be Hackathon Metro", "img/behackathon.png", "Be-hackathon", $lang['DIST_HACK_BE_HACKATHON_PLACE'], $lang['DIST_HACK_BE_HACKATHON_DESC'], $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'], "");
+                new_card("Kiss Your Teacher Hackathon ImmuneWar", "img/kissyourteacher.png", "Kiss Your Teacher", $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'], $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'], $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'], "");
+                new_card("SGConnectedHack Hackathon WeCare4U", "img/sgconnectedhack.png", "SG Connected Hack", $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'], $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'], $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'], "");
+                new_card("App For Students Hackathon", "img/appforstudents.png", "App For Students", $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'], $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'], $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'], "col-lg-offset-2");
+                new_card("Softlab Hackathon GPSTracker", "img/softlab.png", "MIC Summer Camp", $lang['DIST_HACK_SOFTLAB_PLACE'], $lang['DIST_HACK_SOFTLAB_DESC'], $lang['DIST_HACK_SOFTLAB_BLOG_LINK'], "");
               ?>
             </div>
         </div>
@@ -263,17 +269,83 @@
         <div class="container">
             <div class="row">
               <?php
-                new_card("Vim-IDE", "img/vim-ide.png", "Vim-IDE", $lang['PP_VIM_IDE_PLACE'], $lang['PP_VIM_IDE_DESC'], $lang['PP_VIM_IDE_BLOG_LINK']);
-                new_card("GSLib", "img/gslib.png", "GSLib", $lang['PP_GSLIB_PLACE'], $lang['PP_GSLIB_DESC'], $lang['PP_GSLIB_BLOG_LINK']);
-                new_card("GSMath", "img/gsmath.png", "GSMath", $lang['PP_GSMATH_PLACE'], $lang['PP_GSMATH_DESC'], $lang['PP_GSMATH_BLOG_LINK']);
-                new_card("Open Courses", "img/open-courses.png", "Open Courses", $lang['PP_OPEN_COURSES_PLACE'], $lang['PP_OPEN_COURSES_DESC'], $lang['PP_OPEN_COURSES_BLOG_LINK']);
-                new_card("CustomizeCalendars", "img/customizecalendars.png", "CustomizeCalendars", $lang['PP_CUSTOMIZECALENDARS_PLACE'], $lang['PP_CUSTOMIZECALENDARS_DESC'], $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK']);
+                new_card("Vim-IDE", "img/vim-ide.png", "Vim-IDE", $lang['PP_VIM_IDE_PLACE'], $lang['PP_VIM_IDE_DESC'], $lang['PP_VIM_IDE_BLOG_LINK'], "");
+                new_card("GSLib", "img/gslib.png", "GSLib", $lang['PP_GSLIB_PLACE'], $lang['PP_GSLIB_DESC'], $lang['PP_GSLIB_BLOG_LINK'], "");
+                new_card("GSMath", "img/gsmath.png", "GSMath", $lang['PP_GSMATH_PLACE'], $lang['PP_GSMATH_DESC'], $lang['PP_GSMATH_BLOG_LINK'], "");
+                new_card("Open Courses", "img/open-courses.png", "Open Courses", $lang['PP_OPEN_COURSES_PLACE'], $lang['PP_OPEN_COURSES_DESC'], $lang['PP_OPEN_COURSES_BLOG_LINK'], "col-lg-offset-2");
+                new_card("CustomizeCalendars", "img/customizecalendars.png", "CustomizeCalendars", $lang['PP_CUSTOMIZECALENDARS_PLACE'], $lang['PP_CUSTOMIZECALENDARS_DESC'], $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK'], "");
               ?>
             </div>
         </div>
     </section>
 
     <hr class="section-separation">
+
+    <h2 id="projects" class="text-center">
+      <?php echo $lang['EDUCATION_TITLE'] ?>
+    </h2>
+    <section id="education">
+        <div class="container">
+            <div class="row">
+              <?php
+                new_card("UMONS", "img/umons_size.png", "UMONS (2012-2017)", $lang['EDUCATION_UMONS_SECTION'], $lang['EDUCATION_UMONS_DESCRIPTION'], $lang['EDUCATION_UMONS_BLOG_LINK'], "col-lg-offset-2");
+                new_card("42", "img/42_size.png", "42 (2015-2018)", $lang['EDUCATION_42_SECTION'], $lang['EDUCATION_42_DESCRIPTION'], $lang['EDUCATION_42_BLOG_LINK'], "");
+              ?>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-separation">
+
+    <h2 id="projects" class="text-center">
+      <?php echo $lang['SKILLS_TITLE'] ?>
+    </h2>
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_PROGRAMMING'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_PROGRAMMING_DESC'] ?></p>
+          </div>
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_OS'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_OS_DESC'] ?></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_WEB'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_WEB_DESC'] ?></p>
+          </div>
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_SERVER'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_SERVER_DESC'] ?></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_DB'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_DB_DESC'] ?></p>
+          </div>
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_OTHER'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_OTHER_DESC'] ?></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <h2 class="text-center" id="contact">
       <?php echo $lang['CONTACT_TITLE'] ?>
