@@ -332,10 +332,25 @@
         </div>
         <div class="row">
           <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
-            <p><?php echo $lang['SKILLS_DB'] ?></p>
+            <p><?php echo $lang['SKILLS_MOBILE'] ?></p>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-8 text-left">
-            <p><?php echo $lang['SKILLS_DB_DESC'] ?></p>
+            <p><?php echo $lang['SKILLS_MOBILE_DESC'] ?></p>
+          </div>
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_CONNECTED'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_CONNECTED_DESC'] ?></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_ELECTRONIC'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_ELECTRONIC_DESC'] ?></p>
           </div>
           <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
             <p><?php echo $lang['SKILLS_OTHER'] ?></p>

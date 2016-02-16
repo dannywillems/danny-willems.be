@@ -131,8 +131,12 @@
   $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS), PHP';
   $lang['SKILLS_SERVER'] = 'Serveur';
   $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOCean, Docker, NodeJS basique' ;
-  $lang['SKILLS_DB'] = 'Mobile<br />Objets connectés<br />Électronique';
-  $lang['SKILLS_DB_DESC'] = 'Cordova, Ionic<br />Pebble<br />Raspberry Pi, Arduino';
+  $lang['SKILLS_MOBILE'] = 'Mobile';
+  $lang['SKILLS_MOBILE_DESC'] = 'Cordova, Ionic';
+  $lang['SKILLS_CONNECTED'] = 'Objets Connectés';
+  $lang['SKILLS_CONNECTED_DESC'] = 'Pebble';
+  $lang['SKILLS_ELECTRONIC'] = 'Électronique';
+  $lang['SKILLS_ELECTRONIC_DESC'] = 'Raspberry Pi, Arduino';
   $lang['SKILLS_OTHER'] = 'Autres';
   $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTex, UML, Vim, Makefile, Gulp, Grunt';
 
