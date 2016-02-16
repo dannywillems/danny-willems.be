@@ -117,7 +117,7 @@
   $lang['EDUCATION_UMONS_BLOG_LINK'] = "https://www.umons.ac.be";
 
   $lang['EDUCATION_42_SECTION'] = "Formation en informatique";
-  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de cours mais centré sur les projets.<br />Le C est obligatoire dès le premier jour et une grande majorité des projets sont à réaliser dans ce langage.<br />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml, la 3D et bien d'autres domaines sont enseignés à travers les projets.";
+  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de cours mais centré sur les projets.<br />Le C est obligatoire dès le premier jour et une grande majorité des projets sont à réaliser dans ce langage.<br />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml, la 3D et d'autres domaines sont appris à travers les projets. Voir <a href='https://github.com/42dannywillems'>github</a>.";
   $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.fr/notre-pedagogie-programme/";
 
   /* SKILLS SECTION */
