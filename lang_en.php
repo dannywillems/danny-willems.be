@@ -76,6 +76,15 @@
 
                                 <b>The project is in development</b>";
 
+  $lang['DIST_HACK_CITOFWAL_PLACE'] = "Jury's Price - Share Your Ideas";
+  $lang['DIST_HACK_CITOFWAL_BLOG_LINK'] = 'http://www.citizensofwallonia.be/';
+  $lang['DIST_HACK_CITOFWAL_DESC'] = "A lot of people have great ideas, ideas
+  that could make a great project. But often, students don't have a good enough
+  networking to carry out the project. During this 48 hours hackathon, we
+  developed a web platform that allows students that have a great idea to meet
+  students majoring in another major than them. This way, a developer having an
+  idea could meet an accountant,...";
+
   $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'] = "Student App";
   $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "https://blog.danny-willems.be/en/app-for-students-student-app/";
   $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'] = "Facebook, Twitter and all social network

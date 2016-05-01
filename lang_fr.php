@@ -63,6 +63,15 @@
                                 Un algorithme de détection de chute est implémenté dans la montre connectée et quand l'utilisateur tombe, la montre appelle les urgence.
                                 <b>Le projet est encore en développement.</b>";
 
+  $lang['DIST_HACK_CITOFWAL_PLACE'] = "Prix du jury - Share Your Ideas";
+  $lang['DIST_HACK_CITOFWAL_BLOG_LINK'] = 'http://www.citizensofwallonia.be/';
+  $lang['DIST_HACK_CITOFWAL_DESC'] = "Tout le monde a de grandes idées, des
+  idées qui peuvent conduire à de grands projets. En particulier, les étudiants n'ont
+  pas le réseau pour développer les leurs. Durant ce hackathon, nous avons
+  développé une application web qui permettent aux étudiants de se mettre en
+  relation avec les étudiants d'autres facultés qui ont les compétences.
+  <b>Idée présentée devant IBM Ireland Research Lab</b>";
+
   $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'] = "Student App";
   $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "https://blog.danny-willems.be/en/app-for-students-student-app/";
   $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'] = "Facebook, Twitter et tous les réseaux sociaux ont été une révolution dans notre vie quotienne. Ils ont changé notre manière de communiquer.

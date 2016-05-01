@@ -253,7 +253,8 @@
                 new_card("Be Hackathon Metro", "img/behackathon.png", "Be-hackathon", $lang['DIST_HACK_BE_HACKATHON_PLACE'], $lang['DIST_HACK_BE_HACKATHON_DESC'], $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'], "");
                 new_card("Kiss Your Teacher Hackathon ImmuneWar", "img/kissyourteacher.png", "Kiss Your Teacher", $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'], $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'], $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'], "");
                 new_card("SGConnectedHack Hackathon WeCare4U", "img/sgconnectedhack.png", "SG Connected Hack", $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'], $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'], $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'], "");
-                new_card("App For Students Hackathon", "img/appforstudents.png", "App For Students", $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'], $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'], $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'], "col-lg-offset-2");
+                new_card("Citizens of Wallonia Hackathon Share Your Ideas", "img/citofwal.png", "Citizens of Wallonia", $lang['DIST_HACK_CITOFWAL_PLACE'], $lang['DIST_HACK_CITOFWAL_DESC'], $lang['DIST_HACK_CITOFWAL_BLOG_LINK'], "");
+                new_card("App For Students Hackathon", "img/appforstudents.png", "App For Students", $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'], $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'], $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'], "");
                 new_card("Softlab Hackathon GPSTracker", "img/softlab.png", "MIC Summer Camp", $lang['DIST_HACK_SOFTLAB_PLACE'], $lang['DIST_HACK_SOFTLAB_DESC'], $lang['DIST_HACK_SOFTLAB_BLOG_LINK'], "");
               ?>
             </div>
