@@ -270,10 +270,11 @@
         <div class="container">
             <div class="row">
               <?php
-                new_card("Vim-IDE", "img/vim-ide.png", "Vim-IDE", $lang['PP_VIM_IDE_PLACE'], $lang['PP_VIM_IDE_DESC'], $lang['PP_VIM_IDE_BLOG_LINK'], "");
-                new_card("GSLib", "img/gslib.png", "GSLib", $lang['PP_GSLIB_PLACE'], $lang['PP_GSLIB_DESC'], $lang['PP_GSLIB_BLOG_LINK'], "");
-                new_card("GSMath", "img/gsmath.png", "GSMath", $lang['PP_GSMATH_PLACE'], $lang['PP_GSMATH_DESC'], $lang['PP_GSMATH_BLOG_LINK'], "");
-                new_card("Open Courses", "img/open-courses.png", "Open Courses", $lang['PP_OPEN_COURSES_PLACE'], $lang['PP_OPEN_COURSES_DESC'], $lang['PP_OPEN_COURSES_BLOG_LINK'], "col-lg-offset-2");
+                new_card("OCaml cordova plugins bindings", "img/ocaml-cordova.png", "OCaml and Cordova", $lang['PP_OCAML_CORDOVA_PLACE'], $lang['PP_OCAML_CORDOVA_DESC'], $lang['PP_OCAML_CORDOVA_BLOG_LINK'], "");
+                new_card("Vim-IDE vim ide plugins vim-ide", "img/vim-ide.png", "Vim-IDE", $lang['PP_VIM_IDE_PLACE'], $lang['PP_VIM_IDE_DESC'], $lang['PP_VIM_IDE_BLOG_LINK'], "");
+                new_card("GSLib ocaml python c library", "img/gslib.png", "GSLib", $lang['PP_GSLIB_PLACE'], $lang['PP_GSLIB_DESC'], $lang['PP_GSLIB_BLOG_LINK'], "");
+                new_card("GSMath ocaml python c library", "img/gsmath.png", "GSMath", $lang['PP_GSMATH_PLACE'], $lang['PP_GSMATH_DESC'], $lang['PP_GSMATH_BLOG_LINK'], "");
+                new_card("Open Courses learning platform", "img/open-courses.png", "Open Courses", $lang['PP_OPEN_COURSES_PLACE'], $lang['PP_OPEN_COURSES_DESC'], $lang['PP_OPEN_COURSES_BLOG_LINK'], "");
                 new_card("CustomizeCalendars", "img/customizecalendars.png", "CustomizeCalendars", $lang['PP_CUSTOMIZECALENDARS_PLACE'], $lang['PP_CUSTOMIZECALENDARS_DESC'], $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK'], "");
               ?>
             </div>

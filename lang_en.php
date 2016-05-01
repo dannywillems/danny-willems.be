@@ -114,6 +114,15 @@
 
   $lang['PP_TITLE'] = "Personal Projects";
 
+  $lang['PP_OCAML_CORDOVA_PLACE'] = "<a href='https://github.com/dannywillems/ocaml-cordova-plugin-list'>Bindings on github</a>";
+  $lang['PP_OCAML_CORDOVA_BLOG_LINK'] = "https://github.com/dannywillems/ocaml-cordova-plugin-list";
+  $lang['PP_OCAML_CORDOVA_DESC'] = "OCaml has some OCaml to Javascript compilers letting you use OCaml to
+  code web application. On the other hand, you have Cordova which let you build
+  mobile applications as web applications. <br />I wrote and maintain a list of
+  bindings in OCaml to Cordova plugins giving you access to native device
+  components such like the accelerometer in OCaml.";
+
+
   $lang['PP_VIM_IDE_PLACE'] = "Hosted on <a href='https://github.com/vim-ide/vim-ide'>github</a>";
   $lang['PP_VIM_IDE_BLOG_LINK'] = "https://blog.danny-willems.be/en/vim-ide/";
   $lang['PP_VIM_IDE_DESC'] = "I think every vim user would agree if I say vim is

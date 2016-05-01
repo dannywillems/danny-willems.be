@@ -92,6 +92,12 @@
 
   $lang['PP_TITLE'] = "Projets personnels";
 
+  $lang['PP_OCAML_CORDOVA_PLACE'] = "<a href='https://github.com/dannywillems/ocaml-cordova-plugin-list'>Bindings on github</a>";
+  $lang['PP_OCAML_CORDOVA_BLOG_LINK'] = "https://github.com/dannywillems/ocaml-cordova-plugin-list";
+  $lang['PP_OCAML_CORDOVA_DESC'] = "Il existe des compilateurs OCaml vers Javascript qui permettent de développer des applications web en OCaml. De l'autre coté, il y a Cordova qui permet de développer des applications mobiles comme des applications web.
+  <br /> J'ai écrit et je maintiens une liste de bindings vers les plugins Cordova qui permet d'utiliser les fonctionnalités natives du téléphone comme l'accéléromètre en OCaml.";
+
+
   $lang['PP_VIM_IDE_PLACE'] = "Hébergé sur <a href='https://github.com/vim-ide/vim-ide'>github</a>";
   $lang['PP_VIM_IDE_BLOG_LINK'] = "https://blog.danny-willems.be/en/vim-ide/";
   $lang['PP_VIM_IDE_DESC'] = "Je pense que tout utilisateur de vim sera d'accord avec moi si je dis que c'est un fabuleux éditeur de texte.
