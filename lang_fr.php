@@ -41,7 +41,7 @@
   $lang['DIST_HACK_TITLE'] = "Distinctions &amp; Hackathons";
 
   $lang['DIST_HACK_BE_HACKATHON_PLACE'] = "1er Prix : Metro";
-  $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'] = "https://blog.danny-willems.be/en/be-hackathon-metro-1st-price/";
+  $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'] = "http://www.be-hackathon.be/";
   $lang['DIST_HACK_BE_HACKATHON_DESC'] = "Le thème de ce hackathon était 'les personnes handicapées'.
                                 <br />
                                 Nous avons développé une application Android, Metro, aidant les personnes aveugles à savoir quels sont les prochains métros qui arrivent.
@@ -49,7 +49,7 @@
                                 Nous avons utilisé des iBeacons que j'ai réalisé à l'aide un Raspberry Pi et un adaptateur Bluetooth LE.";
 
   $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'] = "3ième Prix: ImmuneWar";
-  $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'] = "https://blog.danny-willems.be/en/kiss-your-teacher-immunewar-3rd-price/";
+  $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'] = "http://www.kissyourteacher.be/";
   $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'] = "Comment apprendre quelque chose facilement ? Avec des Serious Game !
                                 <br />
                                 Nous avons développé un jeu basé sur le système immunitaire, appelé ImmuneWar. Les bactéries contres les cellules B et T, qui seront les vainqueurs ?
@@ -57,7 +57,7 @@
                                 Durant ce hackathon, j'ai appris les bases d'Unity3D et le monde du développement de jeu vidéo.";
 
   $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'] = "3ième Prix: WeCare4U";
-  $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'] = "https://blog.danny-willems.be/en/sgconnected-hack-wecare4u-3rd-price/";
+  $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'] = "http://sgconnectedhack.bemyapp.com/";
   $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'] = "Bientôt, le monde entier sera totalement connecté et les objets connectés nous aideront dans notre vie quotidienne.
                                 Nous avons développé une application Android et Pebble, appelés <em>WeCare4U</em>.
                                 Un algorithme de détection de chute est implémenté dans la montre connectée et quand l'utilisateur tombe, la montre appelle les urgence.
@@ -73,7 +73,7 @@
   <b>Idée présentée devant IBM Ireland Research Lab</b>";
 
   $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'] = "Student App";
-  $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "https://blog.danny-willems.be/en/app-for-students-student-app/";
+  $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "http://www.aftleuven.be/event/apps-for-students-hackathon/";
   $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'] = "Facebook, Twitter et tous les réseaux sociaux ont été une révolution dans notre vie quotienne. Ils ont changé notre manière de communiquer.
                                <br />
                                Ces plateformes sont utilisées par des millions d'étudiants, mais aucune d'entre elles offre une réelle expérience pour la vie des étudiants.
@@ -81,7 +81,7 @@
                                Pendant ce hackathon de 24h, nous avons imaginé un nouveau concept de réseau social pour étudiant.";
 
   $lang['DIST_HACK_SOFTLAB_PLACE'] = "GPSTracker";
-  $lang['DIST_HACK_SOFTLAB_BLOG_LINK'] = "https://blog.danny-willems.be/en/mic-summer-camp-gpstracker/";
+  $lang['DIST_HACK_SOFTLAB_BLOG_LINK'] = "http://www.softlab.be/summercamp";
   $lang['DIST_HACK_SOFTLAB_DESC'] = "GPSTracker, un petit objet ayant une autonomie de plusieurs jours, fabriqué avec
                                     de l'Arduino, enregistre votre position toutes les secondes. Après votre
                                     voyage ou votre jogging, activez le bluetooth de votre téléphone ou connectez

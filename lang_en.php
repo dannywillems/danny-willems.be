@@ -40,7 +40,7 @@
   $lang['DIST_HACK_TITLE'] = "Distinctions &amp; Hackathons";
 
   $lang['DIST_HACK_BE_HACKATHON_PLACE'] = "1st Price : Metro";
-  $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'] = "https://blog.danny-willems.be/en/be-hackathon-metro-1st-price/";
+  $lang['DIST_HACK_BE_HACKATHON_BLOG_LINK'] = "http://www.be-hackathon.be/";
   $lang['DIST_HACK_BE_HACKATHON_DESC'] = "The theme of this hackathon was 'People with disabilities'.
                                 <br />
                                 We developed an Android
@@ -51,7 +51,7 @@
                                 a Bluetooth LE adapter.";
 
   $lang['DIST_HACK_KISS_YOUR_TEACHER_PLACE'] = "3rd Price: ImmuneWar";
-  $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'] = "https://blog.danny-willems.be/en/kiss-your-teacher-immunewar-3rd-price/";
+  $lang['DIST_HACK_KISS_YOUR_TEACHER_BLOG_LINK'] = "http://www.kissyourteacher.be/";
   $lang['DIST_HACK_KISS_YOUR_TEACHER_DESC'] = "How to learn something easily ? With Serious
                                 Game !
                                 <br />
@@ -63,7 +63,7 @@
                                 Unity3D and the world of game development.";
 
   $lang['DIST_HACK_SG_CONNECTED_HACK_PLACE'] = "3rd Price: WeCare4U";
-  $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'] = "https://blog.danny-willems.be/en/sgconnected-hack-wecare4u-3rd-price/";
+  $lang['DIST_HACK_SG_CONNECTED_HACK_BLOG_LINK'] = "http://sgconnectedhack.bemyapp.com/";
   $lang['DIST_HACK_SG_CONNECTED_HACK_DESC'] = "Soon, the entire world will be fully connected
                                 and connected devices will help us in the daily life.
 
@@ -86,7 +86,7 @@
   idea could meet an accountant,...";
 
   $lang['DIST_HACK_APP_FOR_STUDENTS_PLACE'] = "Student App";
-  $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "https://blog.danny-willems.be/en/app-for-students-student-app/";
+  $lang['DIST_HACK_APP_FOR_STUDENTS_BLOG_LINK'] = "http://www.aftleuven.be/event/apps-for-students-hackathon/";
   $lang['DIST_HACK_APP_FOR_STUDENTS_DESC'] = "Facebook, Twitter and all social network
                                platforms have been a revolution in our daily
                                life. It changed our way to communicate.
@@ -99,7 +99,7 @@
                                new concept of social network for students.";
 
   $lang['DIST_HACK_SOFTLAB_PLACE'] = "GPSTracker: In Development";
-  $lang['DIST_HACK_SOFTLAB_BLOG_LINK'] = "https://blog.danny-willems.be/en/mic-summer-camp-gpstracker/";
+  $lang['DIST_HACK_SOFTLAB_BLOG_LINK'] = "http://www.softlab.be/summercamp";
   $lang['DIST_HACK_SOFTLAB_DESC'] = "GPSTracker, a small device built with Arduino,
                                 tracks your position every second. After
                                 your travel or your jogging, activate your
