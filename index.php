@@ -61,13 +61,13 @@
     <meta name="viewport"                   content="width=device-width, initial-scale=1" />
     <meta name="description"                content="<?php echo $lang['TITLE'] ?>" />
     <meta name="author"                     content="Danny Willems" />
-    <meta name="keywords"                   content="Danny Willems developer web mobile hybrid software hackathon développeur" />
+    <meta name="keywords"                   content="Danny Willems developer web mobile hybrid software hackathon développeur belgique belgium OCaml front-end website site" />
 
-    <meta property="og:url"                 content="http://danny-willems.be" />
+    <meta property="og:url"                 content="https://danny-willems.be" />
     <meta property="og:type"                content="website" />
     <meta property="og:title"               content="<?php echo $lang['TITLE_SHORT'] ?>" />
     <meta property="og:description"         content="<?php echo $lang['DESCRIPTION'] ?>" />
-    <meta property="og:image"               content="http://danny-willems.be/img/personal.jpg" />
+    <meta property="og:image"               content="https://danny-willems.be/img/personal.jpg" />
 
     <title><?php echo $lang['TITLE'] ?></title>
 
