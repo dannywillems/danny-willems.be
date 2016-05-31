@@ -190,7 +190,7 @@
 
   $lang['EDUCATION_42_SECTION'] = "Computer Science";
   $lang['EDUCATION_42_DESCRIPTION'] = "42 is focused on peer-to-peer pedagogy and self-learning: no courses, no teachers, no schedule but only projects. C is the first learned programming language and most of projects must be done in C.<br />PHP, SQL (+ security vulnerabilities), computer security, C++, OCaml, 3D and lots of others computer fields are learned through projects. See <a href='https://github.com/42dannywillems'>github</a> for my projects.";
-  $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.fr/notre-pedagogie-programme/";
+  $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.us.org";
 
   /* SKILLS SECTION */
 
