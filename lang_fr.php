@@ -153,7 +153,7 @@
   $lang['SKILLS_ELECTRONIC'] = 'Électronique';
   $lang['SKILLS_ELECTRONIC_DESC'] = 'Raspberry Pi, Arduino';
   $lang['SKILLS_OTHER'] = 'Autres';
-  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTex, UML, Vim, Makefile, Gulp, Grunt';
+  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTeX, UML, Vim, Makefile, Gulp, Grunt';
 
   /* CONTACT SECTION */
 
