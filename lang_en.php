@@ -3,7 +3,7 @@
 
   $lang['TITLE'] = "Danny Willems - Web developer, SysAdmin, Hybrid mobile developer, Software developer";
   $lang['TITLE_SHORT'] = "Danny Willems - Web, Hybrid mobile and software developer";
-  $lang['DESCRIPTION'] = "You have an ideas, I have the skills.";
+  $lang['DESCRIPTION'] = "You have ideas, I have skills.";
 
   $lang['SECTION_SERVICES'] = 'Services';
   $lang['SECTION_DIST_HACK'] = 'Distinctions & Hackathons';
