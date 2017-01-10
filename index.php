@@ -122,9 +122,6 @@
                         <a class="page-scroll" href="#about"></a>
                     </li>
                     <li>
-                      <a class="page-scroll" href="#services"><?php echo $lang['SECTION_SERVICES'] ?></a>
-                    </li>
-                    <li>
                       <a class="page-scroll" href="#distinctions"><?php echo $lang['SECTION_DIST_HACK'] ?></a>
                     </li>
                     <li>
@@ -190,68 +187,6 @@
         </div>
     </header>
 
-    <h2 class="text-center" id="services">
-      <?php
-        echo $lang['SECTION_SERVICES'];
-      ?>
-    </h2>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-xs-12">
-                    <h3 class="text-center">
-                      <?php echo $lang['WEB_DEV_TITLE'] ?>
-                    </h3>
-                    <hr>
-                    <p class="text-center">
-                      <?php echo $lang['WEB_DEV_FRONT_ISSUE'] ?>
-                    </p>
-                    <p class="text-center">
-                      <?php echo $lang['WEB_DEV_FRONT_SOL'] ?>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-12">
-                    <h3 class="text-center">
-                      <?php echo $lang['SOFT_DEV_TITLE'] ?>
-                    </h3>
-                    <hr>
-                    <p class="text-center">
-                      <?php echo $lang['SOFT_DEV_ISSUE'] ?>
-                    </p>
-                    <p class="text-center">
-                      <?php echo $lang['SOFT_DEV_SOL'] ?>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-12">
-                    <h3 class="text-center">
-                      <?php echo $lang['MOBILE_DEV_TITLE'] ?>
-                    </h3>
-                    <hr>
-                    <p class="text-center">
-                      <?php echo $lang['MOBILE_DEV_ISSUE'] ?>
-                    </p>
-                    <p class="text-center">
-                      <?php echo $lang['MOBILE_DEV_SOL'] ?>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-12">
-                    <h3 class="text-center">
-                      <?php echo $lang['SYSADMIN_TITLE'] ?>
-                    </h3>
-                    <hr>
-                    <p class="text-center">
-                      <?php echo $lang['SYSADMIN_ISSUE'] ?>
-                    </p>
-                    <p class="text-center">
-                      <?php echo $lang['SYSADMIN_SOL'] ?>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <hr class="section-separation">
-
     <h2 id="distinctions" class="text-center">
       <?php echo $lang['DIST_HACK_TITLE'] ?>
     </h2>
@@ -290,6 +225,23 @@
         </div>
     </section>
 
+    <!--
+    <hr class="section-separation">
+
+    <h2 id="projects" class="text-center">
+      <?php echo $lang['XP_TITLE'] ?>
+    </h2>
+    <section>
+        <div class="container">
+            <div class="row">
+              <?php
+                new_card("Be Sport Ocsigen OCaml software engineer", "img/besport.png", "Be Sport / Ocsigen (OCaml)", $lang['XP_BE_SPORT_OCSIGEN_DATES'], $lang['XP_BE_SPORT_OCSIGEN_DESC'], $lang['XP_BE_SPORT_OCSIGEN_LINK'], "");
+              ?>
+            </div>
+        </div>
+    </section>
+    -->
+
     <hr class="section-separation">
 
     <h2 id="projects" class="text-center">
@@ -321,10 +273,10 @@
             <p><?php echo $lang['SKILLS_PROGRAMMING_DESC'] ?></p>
           </div>
           <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
-            <p><?php echo $lang['SKILLS_OS'] ?></p>
+            <p><?php echo $lang['SKILLS_DATABASE'] ?></p>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-8 text-left">
-            <p><?php echo $lang['SKILLS_OS_DESC'] ?></p>
+            <p><?php echo $lang['SKILLS_DATABASE_DESC'] ?></p>
           </div>
         </div>
         <div class="row">
@@ -335,24 +287,24 @@
             <p><?php echo $lang['SKILLS_WEB_DESC'] ?></p>
           </div>
           <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
-            <p><?php echo $lang['SKILLS_SERVER'] ?></p>
-          </div>
-          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
-            <p><?php echo $lang['SKILLS_SERVER_DESC'] ?></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
             <p><?php echo $lang['SKILLS_MOBILE'] ?></p>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-8 text-left">
             <p><?php echo $lang['SKILLS_MOBILE_DESC'] ?></p>
           </div>
+        </div>
+        <div class="row">
           <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
-            <p><?php echo $lang['SKILLS_CONNECTED'] ?></p>
+            <p><?php echo $lang['SKILLS_OS'] ?></p>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-8 text-left">
-            <p><?php echo $lang['SKILLS_CONNECTED_DESC'] ?></p>
+            <p><?php echo $lang['SKILLS_OS_DESC'] ?></p>
+          </div>
+          <div class="skills-title col-lg-2 col-md-2 col-xs-4 text-right">
+            <p><?php echo $lang['SKILLS_SERVER'] ?></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-8 text-left">
+            <p><?php echo $lang['SKILLS_SERVER_DESC'] ?></p>
           </div>
         </div>
 

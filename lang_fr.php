@@ -2,11 +2,10 @@
 
   $lang = array();
 
-  $lang['TITLE'] = "Danny Willems - Web développeur, AdminSys, Développeur application mobile hybride, Software développeur";
-  $lang['TITLE_SHORT'] = "Danny Willems - Web, mobile hybride et software développeur";
-  $lang['DESCRIPTION'] = "Vous avez une idée, j'ai les connaissances.";
+  $lang['TITLE'] = "Danny Willems - Développeur full stack web, logiciel et mobile.";
+  $lang['TITLE_SHORT'] = "Danny Willems - Développeur full stack web, logiciel et mobile";
+  $lang['DESCRIPTION'] = "Vous avez une idée, j'ai les compétences.";
 
-  $lang['SECTION_SERVICES'] = 'Services';
   $lang['SECTION_DIST_HACK'] = 'Distinctions & Hackathons';
   $lang['SECTION_PROJECTS'] = 'Projets';
   $lang['SECTION_EDUCATION'] = 'Éducation';
@@ -14,25 +13,8 @@
   $lang['SECTION_BLOG'] = 'Blog';
   $lang['SECTION_CONTACT'] = 'Contact';
 
-  /* SERVICES TEXT */
-  $lang['SERVICES_TITLE'] = 'Front-end web développeur - Software développeur - Développeur Mobile - Administrateur Système';
+  $lang['SERVICES_TITLE'] = 'Développeur Web Full Stack, Software et Mobile';
   $lang['SERVICES_MORE_ABOUT_ME'] = 'A propos de moi';
-
-  $lang['WEB_DEV_TITLE'] = 'Développeur web';
-  $lang['WEB_DEV_FRONT_ISSUE'] = "Vous avez besoin d'un site pour votre magasin ou pour montrer vos créations ? Vous avez besoin d'un blog ou un site web pour votre prochain événement ?";
-  $lang['WEB_DEV_FRONT_SOL'] = "Front-end développeur, je développerai et maintiendrai votre site. Je peux développer à partir de zéro, en utilisant un CMS comme Wordpress ou Prestashop or en utilisant des frameworks comme Bootstrap, JQuery UI, MaterializeCSS, ...";
-
-  $lang['SOFT_DEV_TITLE'] = "Software développeur";
-  $lang['SOFT_DEV_ISSUE'] = "Vous avez besoin d'une application bureau ?";
-  $lang['SOFT_DEV_SOL'] = "Que cela soit en C, Java, Python ou OCaml, je vous aiderai à développer votre application.";
-
-  $lang['MOBILE_DEV_TITLE'] = "Développeur application mobile hybride";
-  $lang['MOBILE_DEV_ISSUE'] = "Les applications mobiles sont devenues un énorme besoin si vous voulez grandir vite.";
-  $lang['MOBILE_DEV_SOL'] = "J'ai développé plusieurs applications mobiles hybrides en utilisant Cordova et Ionic.";
-
-  $lang['SYSADMIN_TITLE'] = "AdminSys";
-  $lang['SYSADMIN_ISSUE'] = "Chaque entreprise a besoin d'un serveur pour héberger leur site, leurs fichiers internes ou leurs projets en développement.";
-  $lang['SYSADMIN_SOL'] = "Je peux gérer votre serveur tournant sous une distribution Linux ou Unix, installer et maintenir vos solutions d'hébergements.";
 
   /* CARD TEXT */
   $lang['CARD_MORE_DETAILS'] = "En savoir plus";
@@ -92,13 +74,13 @@
 
   $lang['PP_TITLE'] = "Projets personnels";
 
-  $lang['PP_OCAML_CORDOVA_PLACE'] = "<a href='https://github.com/dannywillems/ocaml-cordova-plugin-list'>Bindings on github</a>";
+  $lang['PP_OCAML_CORDOVA_PLACE'] = "<a href='https://github.com/dannywillems/ocaml-cordova-plugin-list'>Bindings sur GitHub</a>";
   $lang['PP_OCAML_CORDOVA_BLOG_LINK'] = "https://github.com/dannywillems/ocaml-cordova-plugin-list";
-  $lang['PP_OCAML_CORDOVA_DESC'] = "Il existe des compilateurs OCaml vers Javascript qui permettent de développer des applications web en OCaml. De l'autre coté, il y a Cordova qui permet de développer des applications mobiles comme des applications web.
+  $lang['PP_OCAML_CORDOVA_DESC'] = "Il existe des compilateurs OCaml vers JavaScript qui permettent de développer des applications web en OCaml. De l'autre coté, il y a Cordova qui permet de développer des applications mobiles comme des applications web.
   <br /> J'ai écrit et je maintiens une liste de bindings vers les plugins Cordova qui permet d'utiliser les fonctionnalités natives du téléphone comme l'accéléromètre en OCaml.";
 
 
-  $lang['PP_VIM_IDE_PLACE'] = "Hébergé sur <a href='https://github.com/vim-ide/vim-ide'>github</a>";
+  $lang['PP_VIM_IDE_PLACE'] = "Hébergé sur <a href='https://github.com/vim-ide/vim-ide'>GitHub</a>";
   $lang['PP_VIM_IDE_BLOG_LINK'] = "https://blog.danny-willems.be/en/vim-ide/";
   $lang['PP_VIM_IDE_DESC'] = "Je pense que tout utilisateur de vim sera d'accord avec moi si je dis que c'est un fabuleux éditeur de texte.
                               Nous devons installer beaucoup de plugins pour développer: ça prend du temps, et nous (développeurs) ne voulons pas perdre de temps à configurer notre IDE.
@@ -132,28 +114,28 @@
   $lang['EDUCATION_UMONS_BLOG_LINK'] = "https://www.umons.ac.be";
 
   $lang['EDUCATION_42_SECTION'] = "Formation en informatique";
-  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de cours mais centré sur les projets.<br />Le C est obligatoire dès le premier jour et une grande majorité des projets sont à réaliser dans ce langage.<br />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml, la 3D et d'autres domaines sont appris à travers les projets. Voir <a href='https://github.com/42dannywillems'>github</a>.";
+  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de cours mais centré sur les projets.<br />Le C est obligatoire dès le premier jour et une grande majorité des projets sont à réaliser dans ce langage.<br />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml, la 3D et d'autres domaines sont appris à travers les projets. Voir <a href='https://github.com/42dannywillems'>GitHub</a>.";
   $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.fr/notre-pedagogie-programme/";
 
   /* SKILLS SECTION */
 
   $lang['SKILLS_TITLE'] = "Compétences";
   $lang['SKILLS_PROGRAMMING'] = 'Programmation';
-  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java (+ Swing), Python, C, OCaml';
+  $lang['SKILLS_PROGRAMMING_DESC'] = 'OCaml, Scala (+ Play2), Java (+ Swing), Python, C';
   $lang['SKILLS_OS'] = 'OS';
   $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
   $lang['SKILLS_WEB'] = 'Web';
-  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS), PHP';
+  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular, NodeJS), PHP';
   $lang['SKILLS_SERVER'] = 'Serveur';
-  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOCean, Docker, NodeJS basique' ;
+  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOCean, Docker' ;
   $lang['SKILLS_MOBILE'] = 'Mobile';
   $lang['SKILLS_MOBILE_DESC'] = 'Cordova, Ionic';
-  $lang['SKILLS_CONNECTED'] = 'Objets Connectés';
-  $lang['SKILLS_CONNECTED_DESC'] = 'Pebble';
-  $lang['SKILLS_ELECTRONIC'] = 'Électronique';
-  $lang['SKILLS_ELECTRONIC_DESC'] = 'Raspberry Pi, Arduino';
+  $lang['SKILLS_DATABASE'] = 'Base de données';
+  $lang['SKILLS_DATABASE_DESC'] = 'MySQL, MariaDB, PostgreSQL';
+  $lang['SKILLS_ELECTRONIC'] = 'Électronique et Objets connectés';
+  $lang['SKILLS_ELECTRONIC_DESC'] = 'Raspberry Pi, Arduino, Pebble';
   $lang['SKILLS_OTHER'] = 'Autres';
-  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTeX, UML, Vim, Makefile, Gulp, Grunt';
+  $lang['SKILLS_OTHER_DESC'] = 'Git, LaTeX, UML, Vim, Makefile, Gulp, Grunt';
 
   /* CONTACT SECTION */
 

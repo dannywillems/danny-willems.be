@@ -1,8 +1,8 @@
 <?php
   $lang = array();
 
-  $lang['TITLE'] = "Danny Willems - Web developer, SysAdmin, Hybrid mobile developer, Software developer";
-  $lang['TITLE_SHORT'] = "Danny Willems - Web, Hybrid mobile and software developer";
+  $lang['TITLE'] = "Danny Willems - Full stack web, mobile and software developer.";
+  $lang['TITLE_SHORT'] = "Danny Willems - Full stack web, mobile and software developer";
   $lang['DESCRIPTION'] = "You have ideas, I have skills.";
 
   $lang['SECTION_SERVICES'] = 'Services';
@@ -13,25 +13,9 @@
   $lang['SECTION_BLOG'] = 'Blog';
   $lang['SECTION_CONTACT'] = 'Contact';
 
-  /* SERVICES TEXT */
-  $lang['SERVICES_TITLE'] = 'Front-end web developer - Software developer - Mobile developer - SysAdmin';
+  $lang['SERVICES_TITLE'] = 'Full Stack Web, Software and Mobile Developer';
   $lang['SERVICES_MORE_ABOUT_ME'] = 'More about me';
 
-  $lang['WEB_DEV_TITLE'] = 'Web developer';
-  $lang['WEB_DEV_FRONT_ISSUE'] = 'Do you need a website for your store or to show your creations ? Do you need a blog or a website for your next event ?';
-  $lang['WEB_DEV_FRONT_SOL'] = "Front-end developer, I will develop and maintain your website. I can develop from scratch, by using a CMS such as WordPress or Prestashop or by using frameworks such as Bootstrap, JQuery UI, MaterializeCSS,...";
-
-  $lang['SOFT_DEV_TITLE'] = "Software developer";
-  $lang['SOFT_DEV_ISSUE'] = "Do you need a desktop application ?";
-  $lang['SOFT_DEV_SOL'] = "Whether in C, Java, Python or OCaml, I will help you to develop your application.";
-
-  $lang['MOBILE_DEV_TITLE'] = "Hybrid mobile developer";
-  $lang['MOBILE_DEV_ISSUE'] = "Mobile applications became a real need if you want to grow fast.";
-  $lang['MOBILE_DEV_SOL'] = "I developed some hybrid mobile applications using Cordova and Ionic.";
-
-  $lang['SYSADMIN_TITLE'] = "SysAdmin";
-  $lang['SYSADMIN_ISSUE'] = "Each enterprise need a server to host their website, their internal files or their projects in development.";
-  $lang['SYSADMIN_SOL'] = "I can manage your server running on a Unix or Linux distribution, install and maintain your hosting solutions.";
 
   /* CARD TEXT */
   $lang['CARD_MORE_DETAILS'] = "More details";
@@ -114,16 +98,16 @@
 
   $lang['PP_TITLE'] = "Personal Projects";
 
-  $lang['PP_OCAML_CORDOVA_PLACE'] = "<a href='https://github.com/dannywillems/ocaml-cordova-plugin-list'>Bindings on github</a>";
+  $lang['PP_OCAML_CORDOVA_PLACE'] = "<a href='https://github.com/dannywillems/ocaml-cordova-plugin-list'>Bindings on GitHub</a>";
   $lang['PP_OCAML_CORDOVA_BLOG_LINK'] = "https://github.com/dannywillems/ocaml-cordova-plugin-list";
-  $lang['PP_OCAML_CORDOVA_DESC'] = "OCaml has some OCaml to Javascript compilers letting you use OCaml to
+  $lang['PP_OCAML_CORDOVA_DESC'] = "OCaml has some OCaml to JavaScript compilers letting you use OCaml to
   code web application. On the other hand, you have Cordova which let you build
   mobile applications as web applications. <br />I wrote and maintain a list of
   bindings in OCaml to Cordova plugins giving you access to native device
   components such like the accelerometer in OCaml.";
 
 
-  $lang['PP_VIM_IDE_PLACE'] = "Hosted on <a href='https://github.com/vim-ide/vim-ide'>github</a>";
+  $lang['PP_VIM_IDE_PLACE'] = "Hosted on <a href='https://github.com/vim-ide/vim-ide'>GitHub</a>";
   $lang['PP_VIM_IDE_BLOG_LINK'] = "https://blog.danny-willems.be/en/vim-ide/";
   $lang['PP_VIM_IDE_DESC'] = "I think every vim user would agree if I say vim is
                                 a wonderful text editor with his key mappings
@@ -181,36 +165,57 @@
                                 without changing the original shared calendars
                                 values.";
 
+  /*
+  $lang['XP_TITLE'] = "Experience"
+  $lang['XP_BE_SPORT_OCSIGEN_DATES'] = "Jul 2016 - Nov. 2016";
+  $lang['XP_BE_SPORT_OCSIGEN_LINK'] = "https://besport.com"
+  $lang['XP_BE_SPORT_OCSIGEN_DESC'] = "I worked for 4 months at Be Sport
+                                       and I integrated the <a href="https://ocsigen.com">Ocsigen</a> team. I mainly
+                                       worked on <a
+                                       href="https://github.com/ocsigen/ocsigen-start">Ocsigen
+                                       Start</a> by adding push notifications,
+                                       i18n and by refactoring and documenting the
+                                       entire project. I also worked on OAuth2.0 and OpenID connect."
+   */
+
   /* EDUCATION SECTION */
 
   $lang['EDUCATION_TITLE'] = "Education";
   $lang['EDUCATION_UMONS_SECTION'] = "Master in mathematics";
-  $lang['EDUCATION_UMONS_DESCRIPTION'] = "Minor in physics (2012-2015), computer sciences (2015-2017) and entrepreneurship (2015-2016).<br />Focused on thinking, projects and giving courses.<br />Main courses: mathematical logic, model theory, numerical analysis, local field, algebra, data structures, artificial intelligence, quantum physics, special relativity, electromagnetism and bioinformatics (see <a href='https://www.linkedin.com/in/dannywillems42'>Linkedin</a>).";
+  $lang['EDUCATION_UMONS_DESCRIPTION'] = "Minor in physics (2012-2015), computer science (2015-2017) and entrepreneurship (2015-2016).<br />Focused on thinking, projects and giving courses.<br />Main courses: mathematical logic, model theory, numerical analysis, local field, algebra, data structures, artificial intelligence, quantum physics, special relativity, electromagnetism and bioinformatics (see <a href='https://www.linkedin.com/in/dannywillems42'>Linkedin</a>).";
   $lang['EDUCATION_UMONS_BLOG_LINK'] = "https://portail.umons.ac.be/en2/pages/default.aspx";
 
   $lang['EDUCATION_42_SECTION'] = "Computer Science";
-  $lang['EDUCATION_42_DESCRIPTION'] = "42 is focused on peer-to-peer pedagogy and self-learning: no courses, no teachers, no schedule but only projects. C is the first learned programming language and most of projects must be done in C.<br />PHP, SQL (+ security vulnerabilities), computer security, C++, OCaml, 3D and lots of others computer fields are learned through projects. See <a href='https://github.com/42dannywillems'>github</a> for my projects.";
+  $lang['EDUCATION_42_DESCRIPTION'] = "42 is focused on peer-to-peer pedagogy and self-learning: no courses, no teachers, no schedule but only projects. C is the first learned programming language and most of projects must be done in C.<br />PHP, SQL (+ security vulnerabilities), computer security, C++, OCaml, 3D and lots of others computer fields are learned through projects. See <a href='https://github.com/42dannywillems'>GitHub</a> for my projects.";
   $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.us.org";
 
   /* SKILLS SECTION */
 
   $lang['SKILLS_TITLE'] = "Skills";
+
   $lang['SKILLS_PROGRAMMING'] = 'Programming';
-  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java (+ Swing), Python, C, OCaml';
+  $lang['SKILLS_PROGRAMMING_DESC'] = 'OCaml, Scala (+ Play2), Java (+ Swing), Python, C';
+
   $lang['SKILLS_OS'] = 'OS';
   $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
+
   $lang['SKILLS_WEB'] = 'Web';
-  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular JS), PHP';
+  $lang['SKILLS_WEB_DESC'] = 'HTML5, CSS3 (+ Bootstrap, MaterializeCSS), JavaScript (+ JQuery, Angular, NodeJS), PHP';
+
   $lang['SKILLS_SERVER'] = 'Server';
-  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOcean, Docker, Basics NodeJS' ;
+  $lang['SKILLS_SERVER_DESC'] = 'AWS, Debian, Ubuntu, Unix (FreeBSD), OVH, DigitalOcean, Docker' ;
+
   $lang['SKILLS_MOBILE'] = 'Mobile';
   $lang['SKILLS_MOBILE_DESC'] = 'Cordova, Ionic';
-  $lang['SKILLS_CONNECTED'] = 'Connected Devices';
-  $lang['SKILLS_CONNECTED_DESC'] = 'Pebble';
-  $lang['SKILLS_ELECTRONIC'] = 'Electronic';
-  $lang['SKILLS_ELECTRONIC_DESC'] = 'Raspberry Pi, Arduino';
+
+  $lang['SKILLS_DATABASE'] = 'Databases';
+  $lang['SKILLS_DATABASE_DESC'] = 'MySQL, MariaDB, PostgreSQL';
+
+  $lang['SKILLS_ELECTRONIC'] = 'Electronic and Connected devices';
+  $lang['SKILLS_ELECTRONIC_DESC'] = 'Raspberry Pi, Arduino, Pebble';
+
   $lang['SKILLS_OTHER'] = 'Other';
-  $lang['SKILLS_OTHER_DESC'] = 'Git, MySQL, LaTeX, UML, Vim, Makefile, Gulp, Grunt';
+  $lang['SKILLS_OTHER_DESC'] = 'Git, LaTeX, UML, Vim, Makefile, Gulp, Grunt';
 
   /* CONTACT SECTION */
 
