@@ -196,7 +196,7 @@
 
   $lang['SKILLS_TITLE'] = "Skills";
   $lang['SKILLS_PROGRAMMING'] = 'Programming';
-  $lang['SKILLS_PROGRAMMING_DESC'] = 'Java (+ Swing), Python, C, OCaml';
+$lang['SKILLS_PROGRAMMING_DESC'] = 'Scala (+ Play), Python, C, OCaml, Java (+ Swing)';
   $lang['SKILLS_OS'] = 'OS';
   $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
   $lang['SKILLS_WEB'] = 'Web';
