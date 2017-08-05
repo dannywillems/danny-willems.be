@@ -187,6 +187,8 @@
         </div>
     </header>
 
+    <hr class="section-separation">
+
     <h2 id="distinctions" class="text-center">
       <?php echo $lang['DIST_HACK_TITLE'] ?>
     </h2>
@@ -225,7 +227,6 @@
         </div>
     </section>
 
-    <!--
     <hr class="section-separation">
 
     <h2 id="projects" class="text-center">
@@ -236,18 +237,18 @@
             <div class="row">
               <?php
                 new_card("Be Sport Ocsigen OCaml software engineer", "img/besport.png", "Be Sport / Ocsigen (OCaml)", $lang['XP_BE_SPORT_OCSIGEN_DATES'], $lang['XP_BE_SPORT_OCSIGEN_DESC'], $lang['XP_BE_SPORT_OCSIGEN_LINK'], "");
+                new_card("Citypharma Selfpharma Developer", "img/selfpharma.png", "Selfpharma (Cordova - Front End)", $lang['XP_SELFPHARMA_DATES'], $lang['XP_SELFPHARMA_DESC'], $lang['XP_SELFPHARMA_LINK'], "");
               ?>
             </div>
         </div>
     </section>
-    -->
 
     <hr class="section-separation">
 
     <h2 id="projects" class="text-center">
       <?php echo $lang['EDUCATION_TITLE'] ?>
     </h2>
-    <section id="education">
+    <section id="experience">
         <div class="container">
             <div class="row">
               <?php

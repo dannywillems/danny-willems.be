@@ -165,18 +165,26 @@
                                 without changing the original shared calendars
                                 values.";
 
-  /*
-  $lang['XP_TITLE'] = "Experience"
+  /* EXPERIENCE */
+
+  $lang['XP_TITLE'] = "Experience";
+
   $lang['XP_BE_SPORT_OCSIGEN_DATES'] = "Jul 2016 - Nov. 2016";
-  $lang['XP_BE_SPORT_OCSIGEN_LINK'] = "https://besport.com"
+  $lang['XP_BE_SPORT_OCSIGEN_LINK'] = "https://besport.com";
   $lang['XP_BE_SPORT_OCSIGEN_DESC'] = "I worked for 4 months at Be Sport
-                                       and I integrated the <a href="https://ocsigen.com">Ocsigen</a> team. I mainly
+                                       and I integrated the <a
+                                       href='https://ocsigen.org'>Ocsigen</a>
+                                       team. I mainly
                                        worked on <a
-                                       href="https://github.com/ocsigen/ocsigen-start">Ocsigen
+                                       href='https://github.com/ocsigen/ocsigen-start'>Ocsigen
                                        Start</a> by adding push notifications,
-                                       i18n and by refactoring and documenting the
-                                       entire project. I also worked on OAuth2.0 and OpenID connect."
-   */
+                                       i18n and by refactoring and documenting
+                                       the entire project. I also worked on
+                                       OAuth2.0 and OpenID connect.";
+
+  $lang['XP_SELFPHARMA_DATES'] = "Jul 2015 - Dec. 2015";
+  $lang['XP_SELFPHARMA_LINK'] = "https://selfpharma.com";
+  $lang['XP_SELFPHARMA_DESC'] = "Selfpharma is ";
 
   /* EDUCATION SECTION */
 

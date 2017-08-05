@@ -98,30 +98,75 @@
 
   $lang['PP_OPEN_COURSES_PLACE'] = "En développement";
   $lang['PP_OPEN_COURSES_BLOG_LINK'] = "https://open-courses.org";
-  $lang['PP_OPEN_COURSES_DESC'] = "L'éducation est très importante ! Le savoir doit être libre, accessible pour tout le monde, partout et chacun doit être autorisé à apporter quelque chose.
-                                  Nous devons avoir des cours pour apprendre. Open Courses est une plateforme collaborative contenant des cours sur différents sujets.
-                                  Vous avez quelque chose à apprendre à quelqu'un: soyez collaboratifs, créez un cours libre !";
+  $lang['PP_OPEN_COURSES_DESC'] = "L'éducation est très importante ! Le savoir
+  doit être libre, accessible pour tout le monde, partout et chacun doit être
+  autorisé à apporter quelque chose.
+                                  Nous devons avoir des cours pour apprendre.
+                                  Open Courses est une plateforme collaborative
+                                  contenant des cours sur différents sujets.
+                                  Vous avez quelque chose à apprendre à
+                                  quelqu'un: soyez collaboratifs, créez un cours
+                                  libre !";
 
   $lang['PP_CUSTOMIZECALENDARS_PLACE'] = "En développement";
   $lang['PP_CUSTOMIZECALENDARS_BLOG_LINK'] = "https://github.com/dannywillems/customizecalendars.ionic";
-  $lang['PP_CUSTOMIZECALENDARS_DESC'] = "CustomizeCalendars est une application mobile qui vous laisse personnaliser vos calendriers partagés en ligne. L'application vous laisse choisir quels événements vous souhaitez aller et vous laisse modifier le nom des événements sans changer les valeurs du calendrier original.";
+  $lang['PP_CUSTOMIZECALENDARS_DESC'] = "CustomizeCalendars est une application
+  mobile qui vous laisse personnaliser vos calendriers partagés en ligne.
+  L'application vous laisse choisir quels événements vous souhaitez aller et
+  vous laisse modifier le nom des événements sans changer les valeurs du
+  calendrier original.";
+
+  /* EXPERIENCE */
+
+  $lang['XP_TITLE'] = "Expérience";
+
+  $lang['XP_BE_SPORT_OCSIGEN_DATES'] = "Juillet 2016 - Nov. 2016";
+  $lang['XP_BE_SPORT_OCSIGEN_LINK'] = "https://besport.com";
+  $lang['XP_BE_SPORT_OCSIGEN_DESC'] = "Pendant 4 mois, j'ai intégré les équipes
+  de <a href='https://besport.com'>Be Sport</a> et du projet libre <a
+  href='https://ocsigen.org'>Ocsigen</a>. J'ai principalement travaillé sur
+                                       <a
+                                       href='https://github.com/ocsigen/ocsigen-start'>Ocsigen
+                                       Start</a> en implémentant les
+                                       notifications push, i18n et en
+                                       refactorisant et documentant le projet en
+                                       entier. J'ai également commencé une
+                                       implémentation des standards OAuth2.0 et
+                                       d'OpenID Connect en OCaml.";
+
+  $lang['XP_SELFPHARMA_DATES'] = "Juillet 2015 - Déc. 2015";
+  $lang['XP_SELFPHARMA_LINK'] = "https://selfpharma.com";
+  $lang['XP_SELFPHARMA_DESC'] = "Selfpharma";
 
   /* EDUCATION SECTION */
 
   $lang['EDUCATION_TITLE'] = "Éducation";
   $lang['EDUCATION_UMONS_SECTION'] = "Master en mathématiques";
-  $lang['EDUCATION_UMONS_DESCRIPTION'] = "Orientation physique (2012-2015), informatique (2015-2017) et entrepreneuriat (2015-2016).<br />Cursus centré sur la réflexion, les projets et les présentations. <br />Enseignement dans divers domaines tel que la relativité restreinte, la mécanique quantique, l'intelligence artificielle, la bio informatique, la logique mathématique et l'analyse numérique (voir <a href='https://www.linkedin.com/in/dannywillems42'>Linkedin</a>)";
+  $lang['EDUCATION_UMONS_DESCRIPTION'] = "Orientation physique (2012-2015),
+  informatique (2015-2017) et entrepreneuriat (2015-2016).<br />Cursus centré
+  sur la réflexion, les projets et les présentations. <br />Enseignement dans
+  divers domaines tel que la relativité restreinte, la mécanique quantique,
+  l'intelligence artificielle, la bio informatique, la logique mathématique et
+  l'analyse numérique (voir <a
+  href='https://www.linkedin.com/in/dannywillems42'>Linkedin</a>)";
   $lang['EDUCATION_UMONS_BLOG_LINK'] = "https://www.umons.ac.be";
 
   $lang['EDUCATION_42_SECTION'] = "Formation en informatique";
-  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de cours mais centré sur les projets.<br />Le C est obligatoire dès le premier jour et une grande majorité des projets sont à réaliser dans ce langage.<br />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml, la 3D et d'autres domaines sont appris à travers les projets. Voir <a href='https://github.com/42dannywillems'>GitHub</a>.";
+  $lang['EDUCATION_42_DESCRIPTION'] = "42 se focalise sur la pédagogie
+  peer-to-peer et le self-learning: pas de professeurs, pas d'horaires, pas de
+  cours mais centré sur les projets.<br />Le C est obligatoire dès le premier
+  jour et une grande majorité des projets sont à réaliser dans ce langage.<br
+  />Le PHP, SQL (+ failles de sécurité), la sécurité informatique, C++, OCaml,
+  la 3D et d'autres domaines sont appris à travers les projets. Voir <a
+  href='https://github.com/42dannywillems'>GitHub</a>.";
   $lang['EDUCATION_42_BLOG_LINK'] = "http://www.42.fr/notre-pedagogie-programme/";
 
   /* SKILLS SECTION */
 
   $lang['SKILLS_TITLE'] = "Compétences";
   $lang['SKILLS_PROGRAMMING'] = 'Programmation';
-  $lang['SKILLS_PROGRAMMING_DESC'] = 'OCaml, Scala (+ Play2), Java (+ Swing), Python, C';
+  $lang['SKILLS_PROGRAMMING_DESC'] = 'OCaml, Scala (+ Play2), Java (+ Swing),
+  Python, C';
   $lang['SKILLS_OS'] = 'OS';
   $lang['SKILLS_OS_DESC'] = 'Linux, Unix, Windows, Mac OS X';
   $lang['SKILLS_WEB'] = 'Web';
